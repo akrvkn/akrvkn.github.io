@@ -1,5 +1,5 @@
 ---
 layout: blog
 title: Новости
-permalink: /news/
+permalink: /news
 ---
