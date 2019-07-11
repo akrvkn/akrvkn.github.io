@@ -1,0 +1,56 @@
+<div id="sidebar" class="sidebar widget-area">
+    <!--<div id="custom_html-01" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><h4 class="widget-title widgettitle">Заказать бесплатно буклет</h4><p style="text-align:center"><a href="/booklet"><img src="{{site.baseurl}}assets/images/banners/booklet.jpg" style="padding:4px;border:1px solid #ddd;" alt="Буклет"  /></a></p></div></div>
+    </div>-->
+    <div id="custom_html-01" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">Проведи профессиональный праздник в круизе</h4><div class="textwidget custom-html-widget"><p style="text-align:center"><a href="/holidays"><img src="{{site.baseurl}}assets/images/banners/flag.jpg" style="padding:4px;border:1px solid #ddd;" alt="Твой день"  /></a></p></div></div>
+    </div>
+
+    <div id="custom_html-6" class="widget_text widget widget_custom_html">
+        <div class="widget_text widget-wrap">
+            <div class="textwidget custom-html-widget">
+                <p><strong>Звоните прямо сейчас:</strong><br />(495) 671-01-08<br />(495) 643-43-75<br />8 (916) 349-71-06</p>
+                <p style="text-align:center;color:green;">ВСЕ КРУИЗЫ ЗАСТРАХОВАНЫ</p>
+                <p><a style="display: inline-block; padding: 5px 20px; color: white; background-color: green" href="/contacts">бесплатный подбор круиза</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="custom_html-13" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><p style="text-align:center"><a href="/raspisaniye?ship=Солнеч,Фурманов"><img src="{{site.baseurl}}assets/images/banners/1000x1000_дети-бесплатно.jpg" style="padding:4px;border:1px solid #ddd;" alt="Лунная соната"  /></a></p></div></div>
+    </div>
+
+    <div class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget">
+        <p style="text-align: center"><a style="display: inline-block; padding: 20px 20px; color: green; border: 1px solid green; text-transform: uppercase" href="/check">Проверить статус заявки</a></p>
+    </div></div>
+    </div>
+
+
+    <div id="featured-post-4" class="widget featured-content featuredpost"><div class="widget-wrap"><h4 class="widget-title widgettitle">Новости</h4>
+        {% for post in site.posts limit:1 %}
+        <h4 class="widget-title widgettitle">{{post.title}}</h4>
+        <div id="recent-post" class="category-news entry">
+            {{ post.content | strip_html | truncate: 140}}
+        </div>
+        {% endfor %}
+        <p class="more-from-category"><a href="/news" title="новости">Все новости</a></p></div>
+    </div>
+
+
+    <div id="custom_html-8" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=cruise-volna/NUtF', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Ваш E-mail:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="cruise-volna/NUtF" name="uri"/><input type="hidden" name="loc" value="ru_RU"/><input type="submit" value="Подписаться" /></form></div></div>
+    </div>
+
+
+    <div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">Москва-Астрахань-Москва</h4>
+        <div class="textwidget custom-html-widget"><p style="text-align:center;"><a href="https://www.cruise-volna.ru/?p=663"><img src="{{site.baseurl}}assets/images/banners/58.jpg" style="padding:4px;border:1px solid #ddd;" /></a></p></div></div>
+    </div>
+
+
+    <div id="custom_html-12" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><h4 class="widget-title widgettitle">Оплата заказа на сайте</h4>
+        <div class="textwidget custom-html-widget"><p style="text-align:center"><a href="/order">Порядок оплаты заказа</a></p>
+            <div style="text-align:center"><button class="buy" type="button" onclick="jQuery('#mymodalform').show();">оплатить заказ</button>
+                <div id="mymodalform" class="modal_form">
+                    <div class="close_button" onclick="jQuery('#mymodalform').hide();">X</div><iframe src="https://securepayments.sberbank.ru/payment/docsite/payform-1.html?token=e606ukjes6efn3bdniq49jjmr2&ask=amount&ask=email&ask=description" frameborder="0"  scrolling="no" width="100%" height="100%"></iframe>
+                </div>
+            </div>
+            <p style="text-align:center;padding-top: 10px;"><img src="{{site.baseurl}}assets/images/banners/cards2.png" alt="кредитные карты" /></p>
+            <p style="text-align:center"><img src="{{site.baseurl}}assets/images/banners/mir2.png" alt="кредитные карты" /></p></div></div>
+    </div>
+</div>

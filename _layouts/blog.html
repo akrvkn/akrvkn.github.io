@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="{{site.description}}" />
+    <title>{{site.company}} - {{site.title}}</title>
+    {% include styles.html %}
+    {% include plugins/yandex.html %}
+</head>
+<body class="content-sidebar">
+<div id="wrap">
+
+    {% include nav.html %}
+    {% include header.html %}
+    {% include subnav.html %}
+
+    <div id="inner">
+        <div id="content-sidebar-wrap">
+            <div id="content">
+                {% for post in site.posts %}
+                <div class="post type-post status-publish format-standard hentry category-news entry">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <div class="entry-content">
+                        <p>{{ post.content }}</p>
+                    <div class="post-meta">
+                        <span class="categories">Новости</span>
+                    </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% include sidebar.html %}
+
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+
+</div>
+
+{% include scripts.html %}
+{% include plugins/jivosite.html %}
+</body>
+</html>

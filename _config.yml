@@ -1,0 +1,13 @@
+title: аккредитованный турагент ведущих судовладельцев России
+company: Круиз-Волна
+keywords: речные круизы, туры по России, отдых на теплоходе
+email: webmaster@rechnoyvokzal.ru
+description: >
+  аккредитованный турагент ведущих судовладельцев России с 2001 года
+baseurl: "/"
+include:
+  - _pages
+exclude: [LICENSE.txt, README.md]
+link: "https://www.cruise-volna.ru"
+key: AIzaSyArfa1jFlTOi9r1IxI-CFg8A7t0MH-MYaU
+markdown: kramdown

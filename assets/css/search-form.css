@@ -1,0 +1,7 @@
+.search-container {
+    display: -webkit-flex;
+    -webkit-justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+

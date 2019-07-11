@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="{{site.description}}" />
+    <title>{{site.company}} - {{page.title}}</title>
+    <link rel="canonical" href="https://www.cruise-volna.ru/" />
+    <link rel='stylesheet' href='{{ site.baseurl }}assets/css/style.css' type='text/css' media='all' />
+    {% include styles.html %}
+</head>
+<body class="full-width-content">
+<div id="wrap">
+
+    {% include nav.html %}
+    {% include header.html %}
+    {% include subnav.html %}
+
+    <div id="inner">
+        <div id="content-sidebar-wrap">
+            <div id="content">
+                <h1>{{ page.title }}</h1>
+                <div class="entry-content">
+                {{ content }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+</div>
+
+{% include scripts.html %}
+{% include plugins/jivosite.html %}
+
+</body>
+</html>
