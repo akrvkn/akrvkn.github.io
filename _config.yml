@@ -9,5 +9,4 @@ include:
   - _pages
 exclude: [LICENSE.txt, README.md]
 link: "https://www.cruise-volna.ru"
-key: AIzaSyArfa1jFlTOi9r1IxI-CFg8A7t0MH-MYaU
 markdown: kramdown
