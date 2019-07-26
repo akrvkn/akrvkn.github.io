@@ -211,7 +211,7 @@ $.fn.dataTableExt.afnFiltering.push(
             ],
             "columnDefs": [
                 {
-                    "targets": [0, 1, 2, 3, 4, 5, 6],
+                    "targets": [1, 2, 3, 4, 5, 6],
                     "sortable": false
                 },
                 {
@@ -296,6 +296,10 @@ $.fn.dataTableExt.afnFiltering.push(
                 this.api().columns(0).every( function () {
                     var column = this;
                     var get_season = parseUrlQuery('season')===''?$('#season').val():parseUrlQuery('season');
+                    $('#season').on("change", function(){
+                        get_season = $('#season').val();
+                        column.search( get_season ).draw();
+                    });
                     if (get_season.length > 0) {
                         column.search( get_season ).draw();
                     }
