@@ -4,12 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="{{site.description}}" />
     <title>{{site.company}} - {{site.title}}</title>
-    <link rel="stylesheet" href="/assets/lib/DataTables-1.10.16/css/jquery.dataTables.css" />
-    <link rel="stylesheet" href="/assets/css/lightbox.min.css" type="text/css" />
-    <link rel="stylesheet" href="/assets/css/style.css?v=1.2.8" type="text/css" />
-    {% if page.style %}
-    <link rel="stylesheet" href="/assets/css/{{page.style}}" type="text/css" />
-    {% endif %}
+    {% include styles.html %}
     {% include plugins/yandex.html %}
 </head>
 <body class="content-sidebar">
