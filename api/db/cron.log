@@ -1,5 +1,4 @@
-Обновление cb13899..954600d
+Обновление 058c8f6..99b8edc
 Fast-forward
- _pages/bonus.md  | 535 ++-------------------------------------------------
- _pages/spec.html | 575 ++++++++++++++++++++++++++++++-------------------------
- 2 files changed, 329 insertions(+), 781 deletions(-)
+ _pages/bonus.md | 17 ++++++++++++++---
+ 1 file changed, 14 insertions(+), 3 deletions(-)
