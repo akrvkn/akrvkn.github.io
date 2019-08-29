@@ -1,1 +1,5 @@
-Уже обновлено.
+Обновление 407f3d1a..32b1c501
+Fast-forward
+ _includes/nav.html |  2 +-
+ _pages/bonus.md    | 14 +++++++++++++-
+ 2 files changed, 14 insertions(+), 2 deletions(-)
