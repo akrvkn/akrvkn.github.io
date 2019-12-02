@@ -2209,7 +2209,7 @@ display:none;
 /*Модальная форма*/
 .modal_form{
   width: 400px; /*Ширина формы*/
-  height: 730px; /*Высота формы*/ 
+  height: 730px; /*Высота формы*/
   display:none;
   position: fixed;
   top:0px;
