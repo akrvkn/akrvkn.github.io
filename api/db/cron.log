@@ -1,6 +1,4 @@
-Updating 71460b87..504d1195
+Updating dd4abc11..623ca091
 Fast-forward
- _includes/sidebar.html | 3 ++-
- _pages/bonus.md        | 4 ++--
- assets/css/style.css   | 2 +-
- 3 files changed, 5 insertions(+), 4 deletions(-)
+ _pages/contacts.md | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
