@@ -4,6 +4,10 @@
 <script src='/assets/js/lightbox.min.js'></script>
 <script src='/assets/lib/DataTables-1.10.16/js/jquery.dataTables.js'></script>
 <script src='/assets/js/posts.js'></script>
+<script src='/assets/js/snowfall.jquery.min.js'></script>
 {% if page.script %}
 <script src='/assets/js/{{ page.script }}'></script>
 {% endif %}
+<script>
+    $('body').snowfall({image :"/assets/images/flake.png", minSize: 10, maxSize:32});
+</script>
