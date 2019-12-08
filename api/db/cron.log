@@ -1,8 +1,1 @@
-Updating 38c35dce..3add9c23
-Fast-forward
- _includes/scripts.html           |   4 ++++
- assets/images/flake.png          | Bin 0 -> 3384 bytes
- assets/js/snowfall.jquery.min.js |   1 +
- 3 files changed, 5 insertions(+)
- create mode 100644 assets/images/flake.png
- create mode 100644 assets/js/snowfall.jquery.min.js
+Already up to date.
