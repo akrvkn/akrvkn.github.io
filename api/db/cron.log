@@ -1,5 +1,5 @@
-Обновление ea4ef2cd..b5ac38f6
+Обновление e0fbb0a9..410e19ac
 Fast-forward
- assets/img/fb31.png | Bin 0 -> 641 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 assets/img/fb31.png
+ _includes/nav.html |  2 +-
+ _pages/bonus.md    | 16 +++++++++-------
+ 2 files changed, 10 insertions(+), 8 deletions(-)
