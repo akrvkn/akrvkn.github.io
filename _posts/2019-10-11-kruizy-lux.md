@@ -52,6 +52,6 @@ title: Круизы "Александра Грина" и "Княжны Викт�
 </tr>
 </tbody>
 </table>
-<img class="aligncenter wp-image-26026 size-full" src="https://www.mosturflot.ru/studio/wp-content/uploads/2018/04/162273cut.jpg" alt="" width="800" height="395" />
+<img class="aligncenter wp-image-26026 size-full" src="https://wp.mosturflot.ru/wp-content/uploads/2018/04/162273cut.jpg" alt="" width="800" height="395" />
 
-<img class="aligncenter wp-image-27607 size-full" src="https://www.mosturflot.ru/studio/wp-content/uploads/2018/10/Grin.jpg" alt="" width="800" height="570" />
+<img class="aligncenter wp-image-27607 size-full" src="https://wp.mosturflot.ru/wp-content/uploads/2018/10/Grin.jpg" alt="" width="800" height="570" />
