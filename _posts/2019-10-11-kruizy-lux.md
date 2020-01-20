@@ -3,7 +3,7 @@ layout: default
 title: Круизы "Александра Грина" и "Княжны Виктории"
 ---
 
-<img class="aligncenter size-full wp-image-20209" src="https://www.mosturflot.ru/studio/wp-content/uploads/2015/11/Luxe2.jpg" alt="" width="300" height="259" />
+<img class="aligncenter size-full wp-image-20209" src="https://wp.mosturflot.ru/wp-content/uploads/2015/11/Luxe2.jpg" alt="" width="300" height="259" />
 
 Хорошая новость для тех, кто предпочитает максимальный комфорт и высокий сервис в речном круизе!
 
