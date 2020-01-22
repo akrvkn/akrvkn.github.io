@@ -1,8 +1,4 @@
-Обновление 53504465..d68c6034
+Обновление 6640f28c..4473caa5
 Fast-forward
- _pages/menu.html                  |  2 +-
- _pages/routes.html                | 15 +++++++--------
- _posts/2019-10-11-kruizy-lux.md   |  6 +++---
- _posts/2020-01-20-tatianin-den.md | 10 ++++++++++
- 4 files changed, 21 insertions(+), 12 deletions(-)
- create mode 100644 _posts/2020-01-20-tatianin-den.md
+ _includes/nav.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
