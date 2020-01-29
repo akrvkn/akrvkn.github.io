@@ -1,1 +1,6 @@
-Уже обновлено.
+Обновление fc35620d..47026438
+Fast-forward
+ _includes/nav.html | 15 +++++++-------
+ _pages/novichok.md | 61 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 69 insertions(+), 7 deletions(-)
+ create mode 100644 _pages/novichok.md
