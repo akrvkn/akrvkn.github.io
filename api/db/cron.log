@@ -1,10 +1,1 @@
-Обновление 8f60dd11..41d12012
-Fast-forward
- _includes/scripts.html                               |   2 +-
- _includes/sections/promo.html                        |   4 +++-
- _includes/sidebar.html                               |   4 ++--
- "assets/images/banners/750\321\205350_msk_piter.jpg" | Bin 0 -> 249369 bytes
- assets/images/banners/Deti_besplatno.jpg             | Bin 0 -> 199271 bytes
- 5 files changed, 6 insertions(+), 4 deletions(-)
- create mode 100644 "assets/images/banners/750\321\205350_msk_piter.jpg"
- create mode 100644 assets/images/banners/Deti_besplatno.jpg
+Уже обновлено.
