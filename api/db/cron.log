@@ -1,1 +1,7 @@
-Уже обновлено.
+Обновление 5038b1c3e..7e425f695
+Fast-forward
+ _pages/bonus.md            |   2 +-
+ assets/css/style.css       |   2 +-
+ assets/images/header8m.png | Bin 0 -> 32439 bytes
+ 3 files changed, 2 insertions(+), 2 deletions(-)
+ create mode 100644 assets/images/header8m.png
