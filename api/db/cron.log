@@ -1,13 +1,5 @@
-Обновление 7ee3cc717..d150d6506
+Обновление 633bae334..7a4a6468c
 Fast-forward
- _pages/routes.html            |   2 +-
- assets/css/style.css          |   2 +-
- assets/images/dir/kama.jpg    | Bin 0 -> 126325 bytes
- assets/images/dir/perm.jpg    | Bin 133780 -> 0 bytes
- assets/images/routes/kama.jpg | Bin 0 -> 126325 bytes
- assets/images/routes/perm.jpg | Bin 386109 -> 0 bytes
- 6 files changed, 2 insertions(+), 2 deletions(-)
- create mode 100644 assets/images/dir/kama.jpg
- delete mode 100644 assets/images/dir/perm.jpg
- create mode 100644 assets/images/routes/kama.jpg
- delete mode 100644 assets/images/routes/perm.jpg
+ _config.yml        | 7 +++++++
+ _pages/contacts.md | 8 --------
+ 2 files changed, 7 insertions(+), 8 deletions(-)
