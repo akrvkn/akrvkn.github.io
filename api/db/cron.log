@@ -1,5 +1,4 @@
-Обновление 633bae334..7a4a6468c
+Обновление b7b0916bf..b74d1e8e1
 Fast-forward
- _config.yml        | 7 +++++++
- _pages/contacts.md | 8 --------
- 2 files changed, 7 insertions(+), 8 deletions(-)
+ _config.yml | 7 -------
+ 1 file changed, 7 deletions(-)
