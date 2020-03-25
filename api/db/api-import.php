@@ -147,12 +147,12 @@ foreach($local_ships_list as $ship_id=>$ship_name){
 			    $count = 0;
 			    sleep(60);
 			}
-		$ship_desc = file_get_contents($desc.$ship_id);
+		$ship_desc = json_decode(file_get_contents($desc.$ship_id));
 		$count++;
 		if($ship_desc){
 		    $find = '«Созвездия»';
 		    $clean_desc = str_replace($find, '', $ship_desc);
-			file_put_contents($base_dir.'/'.$ship_id.'/description.json', $clean_desc);
+			file_put_contents($base_dir.'/'.$ship_id.'/description.json', json_encode($clean_desc));
 		}
 		
 		$ship_cabins = json_decode(file_get_contents($cabins.$ship_id), true);
