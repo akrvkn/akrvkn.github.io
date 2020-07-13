@@ -29,7 +29,7 @@
         {% for post in site.posts limit:1 %}
         <h4 class="widget-title widgettitle">{{post.title}}</h4>
         <div id="recent-post" class="category-news entry">
-            {{ post.content | strip_html | truncate: 140}}
+            <a href="{{ post.url }}">{{ post.content | strip_html | truncate: 140}}</a>
         </div>
         {% endfor %}
         <p class="more-from-category"><a href="/news" title="новости">Все новости</a></p></div>
