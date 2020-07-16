@@ -1,1 +1,344 @@
 Уже обновлено.
+[master 47173e0e2] Updated db 2020-07-16 09:20
+ 470 files changed, 447 insertions(+), 267 deletions(-)
+ rewrite api/db/cruises.json (61%)
+ rewrite api/db/data/106/tours.json (77%)
+ rewrite api/db/data/111/tours.json (65%)
+ rewrite api/db/data/141/337336.json (100%)
+ rewrite api/db/data/141/tours.json (68%)
+ rewrite api/db/data/193/tours.json (68%)
+ rewrite api/db/data/2/tours.json (74%)
+ rewrite api/db/data/214/tours.json (76%)
+ rewrite api/db/data/219/tours.json (76%)
+ rewrite api/db/data/222/tours.json (66%)
+ rewrite api/db/data/231/tours.json (61%)
+ rewrite api/db/data/260/tours.json (69%)
+ delete mode 100644 api/db/data/27/357434.json
+ rewrite api/db/data/27/tours.json (74%)
+ rewrite api/db/data/3/tours.json (65%)
+ rewrite api/db/data/31/tours.json (63%)
+ rewrite api/db/data/33/tours.json (63%)
+ rewrite api/db/data/38/tours.json (79%)
+ rewrite api/db/data/4/tours.json (77%)
+ delete mode 100644 api/db/data/46/338000.json
+ rewrite api/db/data/46/tours.json (60%)
+ delete mode 100644 api/db/data/47/337908.json
+ delete mode 100644 api/db/data/47/337911.json
+ delete mode 100644 api/db/data/47/347686.json
+ delete mode 100644 api/db/data/47/351469.json
+ delete mode 100644 api/db/data/47/353575.json
+ delete mode 100644 api/db/data/47/353576.json
+ rewrite api/db/data/478/tours.json (72%)
+ delete mode 100644 api/db/data/487/357148.json
+ rewrite api/db/data/487/tours.json (81%)
+ rewrite api/db/data/498/tours.json (73%)
+ rewrite api/db/data/52/tours.json (67%)
+ rewrite api/db/data/571/tours.json (81%)
+ delete mode 100644 api/db/data/61/338948.json
+ rewrite api/db/data/61/tours.json (61%)
+ rewrite api/db/data/64/340166.json (100%)
+ rewrite api/db/data/72/tours.json (61%)
+ rewrite api/db/data/77/tours.json (67%)
+ rewrite api/db/data/83/tours.json (71%)
+ create mode 100644 api/db/data/84/337685.json
+ create mode 100644 api/db/data/84/337686.json
+ copy api/db/data/{141/337336.json => 84/337687.json} (100%)
+ create mode 100644 api/db/data/84/337688.json
+ create mode 100644 api/db/data/84/337689.json
+ create mode 100644 api/db/data/84/337690.json
+ create mode 100644 api/db/data/84/337691.json
+ create mode 100644 api/db/data/84/337693.json
+ create mode 100644 api/db/data/84/337694.json
+ create mode 100644 api/db/data/84/337695.json
+ create mode 100644 api/db/data/84/337711.json
+ create mode 100644 api/db/data/84/337712.json
+ rename api/db/data/{193/340849.json => 84/337713.json} (100%)
+ create mode 100644 api/db/data/84/337714.json
+ create mode 100644 api/db/data/84/337715.json
+ create mode 100644 api/db/data/84/337716.json
+ create mode 100644 api/db/data/84/337718.json
+ create mode 100644 api/db/data/84/337719.json
+ create mode 100644 api/db/data/84/337734.json
+ rename api/db/data/{46/337989.json => 84/337736.json} (100%)
+ create mode 100644 api/db/data/84/337737.json
+ create mode 100644 api/db/data/84/337738.json
+ rename api/db/data/{46/352263.json => 84/337739.json} (100%)
+ rename api/db/data/{47/337909.json => 84/337740.json} (100%)
+ rename api/db/data/{47/337912.json => 84/337741.json} (100%)
+ create mode 100644 api/db/data/84/337743.json
+ create mode 100644 api/db/data/84/337744.json
+ create mode 100644 api/db/data/84/337745.json
+ create mode 100644 api/db/data/84/337746.json
+ create mode 100644 api/db/data/84/337748.json
+ create mode 100644 api/db/data/84/337749.json
+ create mode 100644 api/db/data/84/337750.json
+ create mode 100644 api/db/data/84/337751.json
+ create mode 100644 api/db/data/84/337752.json
+ create mode 100644 api/db/data/84/337777.json
+ create mode 100644 api/db/data/84/337778.json
+ create mode 100644 api/db/data/84/337779.json
+ create mode 100644 api/db/data/84/337780.json
+ create mode 100644 api/db/data/84/337781.json
+ create mode 100644 api/db/data/84/337782.json
+ create mode 100644 api/db/data/84/337784.json
+ create mode 100644 api/db/data/84/337785.json
+ create mode 100644 api/db/data/84/337786.json
+ create mode 100644 api/db/data/84/337787.json
+ create mode 100644 api/db/data/84/337789.json
+ create mode 100644 api/db/data/84/337790.json
+ create mode 100644 api/db/data/84/337791.json
+ create mode 100644 api/db/data/84/337792.json
+ create mode 100644 api/db/data/84/337824.json
+ create mode 100644 api/db/data/84/337825.json
+ create mode 100644 api/db/data/84/337826.json
+ create mode 100644 api/db/data/84/337827.json
+ create mode 100644 api/db/data/84/337828.json
+ create mode 100644 api/db/data/84/337829.json
+ create mode 100644 api/db/data/84/337830.json
+ create mode 100644 api/db/data/84/337832.json
+ create mode 100644 api/db/data/84/337833.json
+ create mode 100644 api/db/data/84/337834.json
+ create mode 100644 api/db/data/84/337835.json
+ create mode 100644 api/db/data/84/337837.json
+ create mode 100644 api/db/data/84/337838.json
+ create mode 100644 api/db/data/84/337839.json
+ create mode 100644 api/db/data/84/337840.json
+ create mode 100644 api/db/data/84/337873.json
+ create mode 100644 api/db/data/84/337875.json
+ create mode 100644 api/db/data/84/337876.json
+ create mode 100644 api/db/data/84/337877.json
+ create mode 100644 api/db/data/84/337878.json
+ create mode 100644 api/db/data/84/337879.json
+ create mode 100644 api/db/data/84/337880.json
+ create mode 100644 api/db/data/84/337882.json
+ create mode 100644 api/db/data/84/337883.json
+ create mode 100644 api/db/data/84/337884.json
+ create mode 100644 api/db/data/84/337885.json
+ create mode 100644 api/db/data/84/337887.json
+ create mode 100644 api/db/data/84/337888.json
+ create mode 100644 api/db/data/84/337889.json
+ create mode 100644 api/db/data/84/337890.json
+ create mode 100644 api/db/data/84/337892.json
+ create mode 100644 api/db/data/84/340766.json
+ create mode 100644 api/db/data/84/340767.json
+ create mode 100644 api/db/data/84/344433.json
+ create mode 100644 api/db/data/84/347569.json
+ create mode 100644 api/db/data/84/347570.json
+ create mode 100644 api/db/data/84/347571.json
+ create mode 100644 api/db/data/84/347572.json
+ create mode 100644 api/db/data/84/347580.json
+ create mode 100644 api/db/data/84/347581.json
+ create mode 100644 api/db/data/84/347582.json
+ create mode 100644 api/db/data/84/347583.json
+ create mode 100644 api/db/data/84/347586.json
+ create mode 100644 api/db/data/84/347587.json
+ create mode 100644 api/db/data/84/347588.json
+ create mode 100644 api/db/data/84/347591.json
+ create mode 100644 api/db/data/84/347592.json
+ create mode 100644 api/db/data/84/347593.json
+ create mode 100644 api/db/data/84/347596.json
+ create mode 100644 api/db/data/84/347597.json
+ create mode 100644 api/db/data/84/347598.json
+ create mode 100644 api/db/data/84/347599.json
+ create mode 100644 api/db/data/84/347600.json
+ create mode 100644 api/db/data/84/347601.json
+ create mode 100644 api/db/data/84/347602.json
+ create mode 100644 api/db/data/84/347603.json
+ create mode 100644 api/db/data/84/347604.json
+ create mode 100644 api/db/data/84/347605.json
+ create mode 100644 api/db/data/84/347606.json
+ create mode 100644 api/db/data/84/347641.json
+ create mode 100644 api/db/data/84/347642.json
+ create mode 100644 api/db/data/84/347643.json
+ create mode 100644 api/db/data/84/347644.json
+ create mode 100644 api/db/data/84/347645.json
+ create mode 100644 api/db/data/84/347646.json
+ create mode 100644 api/db/data/84/347647.json
+ create mode 100644 api/db/data/84/347648.json
+ create mode 100644 api/db/data/84/347649.json
+ create mode 100644 api/db/data/84/347651.json
+ create mode 100644 api/db/data/84/347652.json
+ create mode 100644 api/db/data/84/347653.json
+ create mode 100644 api/db/data/84/347654.json
+ create mode 100644 api/db/data/84/347676.json
+ create mode 100644 api/db/data/84/347677.json
+ create mode 100644 api/db/data/84/347678.json
+ create mode 100644 api/db/data/84/347697.json
+ create mode 100644 api/db/data/84/347698.json
+ create mode 100644 api/db/data/84/347699.json
+ create mode 100644 api/db/data/84/347700.json
+ create mode 100644 api/db/data/84/347701.json
+ create mode 100644 api/db/data/84/347702.json
+ create mode 100644 api/db/data/84/347703.json
+ create mode 100644 api/db/data/84/347704.json
+ create mode 100644 api/db/data/84/347705.json
+ create mode 100644 api/db/data/84/347706.json
+ create mode 100644 api/db/data/84/347707.json
+ create mode 100644 api/db/data/84/347708.json
+ create mode 100644 api/db/data/84/348108.json
+ create mode 100644 api/db/data/84/351323.json
+ create mode 100644 api/db/data/84/351333.json
+ create mode 100644 api/db/data/84/351481.json
+ create mode 100644 api/db/data/84/351482.json
+ create mode 100644 api/db/data/84/351493.json
+ create mode 100644 api/db/data/84/351494.json
+ create mode 100644 api/db/data/84/351495.json
+ create mode 100644 api/db/data/84/351501.json
+ create mode 100644 api/db/data/84/351502.json
+ create mode 100644 api/db/data/84/351503.json
+ create mode 100644 api/db/data/84/351504.json
+ create mode 100644 api/db/data/84/351505.json
+ create mode 100644 api/db/data/84/351506.json
+ create mode 100644 api/db/data/84/351507.json
+ create mode 100644 api/db/data/84/351508.json
+ create mode 100644 api/db/data/84/351509.json
+ create mode 100644 api/db/data/84/351510.json
+ create mode 100644 api/db/data/84/351540.json
+ create mode 100644 api/db/data/84/351827.json
+ create mode 100644 api/db/data/84/351828.json
+ create mode 100644 api/db/data/84/351829.json
+ create mode 100644 api/db/data/84/351830.json
+ create mode 100644 api/db/data/84/351831.json
+ create mode 100644 api/db/data/84/351832.json
+ create mode 100644 api/db/data/84/351833.json
+ create mode 100644 api/db/data/84/351844.json
+ create mode 100644 api/db/data/84/351845.json
+ create mode 100644 api/db/data/84/351846.json
+ create mode 100644 api/db/data/84/351847.json
+ create mode 100644 api/db/data/84/351848.json
+ create mode 100644 api/db/data/84/351849.json
+ create mode 100644 api/db/data/84/351850.json
+ create mode 100644 api/db/data/84/352219.json
+ create mode 100644 api/db/data/84/352220.json
+ create mode 100644 api/db/data/84/352221.json
+ create mode 100644 api/db/data/84/352222.json
+ create mode 100644 api/db/data/84/352223.json
+ create mode 100644 api/db/data/84/352224.json
+ create mode 100644 api/db/data/84/352225.json
+ create mode 100644 api/db/data/84/352226.json
+ create mode 100644 api/db/data/84/352227.json
+ create mode 100644 api/db/data/84/352228.json
+ create mode 100644 api/db/data/84/352230.json
+ create mode 100644 api/db/data/84/352231.json
+ create mode 100644 api/db/data/84/352232.json
+ create mode 100644 api/db/data/84/352233.json
+ create mode 100644 api/db/data/84/352234.json
+ create mode 100644 api/db/data/84/352235.json
+ create mode 100644 api/db/data/84/352236.json
+ create mode 100644 api/db/data/84/352237.json
+ create mode 100644 api/db/data/84/352240.json
+ create mode 100644 api/db/data/84/352241.json
+ create mode 100644 api/db/data/84/352242.json
+ create mode 100644 api/db/data/84/352243.json
+ create mode 100644 api/db/data/84/352244.json
+ create mode 100644 api/db/data/84/352245.json
+ create mode 100644 api/db/data/84/352246.json
+ create mode 100644 api/db/data/84/352247.json
+ create mode 100644 api/db/data/84/352248.json
+ create mode 100644 api/db/data/84/352249.json
+ create mode 100644 api/db/data/84/352250.json
+ create mode 100644 api/db/data/84/352251.json
+ create mode 100644 api/db/data/84/352252.json
+ create mode 100644 api/db/data/84/352253.json
+ create mode 100644 api/db/data/84/357588.json
+ create mode 100644 api/db/data/84/357589.json
+ create mode 100644 api/db/data/84/tours.json
+ rewrite api/db/data/95/tours.json (69%)
+ rewrite api/db/data/99/tours.json (82%)
+ rewrite api/db/data/vdh/10/10010.json (79%)
+ rewrite api/db/data/vdh/10/10011.json (76%)
+ rewrite api/db/data/vdh/10/10013.json (77%)
+ rewrite api/db/data/vdh/10/10664.json (70%)
+ rewrite api/db/data/vdh/11/9393.json (77%)
+ rewrite api/db/data/vdh/11/9394.json (73%)
+ rewrite api/db/data/vdh/11/9397.json (81%)
+ rewrite api/db/data/vdh/11/cruises.json (64%)
+ rewrite api/db/data/vdh/13/11716.json (89%)
+ rewrite api/db/data/vdh/13/11736.json (71%)
+ rewrite api/db/data/vdh/13/11737.json (74%)
+ rewrite api/db/data/vdh/13/11738.json (71%)
+ rewrite api/db/data/vdh/13/cruises.json (66%)
+ rewrite api/db/data/vdh/15/11592.json (64%)
+ rewrite api/db/data/vdh/15/11594.json (66%)
+ rewrite api/db/data/vdh/15/11595.json (69%)
+ rewrite api/db/data/vdh/15/11597.json (67%)
+ rewrite api/db/data/vdh/15/11598.json (67%)
+ rewrite api/db/data/vdh/15/11599.json (63%)
+ rewrite api/db/data/vdh/15/11600.json (67%)
+ rewrite api/db/data/vdh/15/11601.json (87%)
+ rewrite api/db/data/vdh/15/9596.json (73%)
+ rewrite api/db/data/vdh/16/11616.json (65%)
+ rewrite api/db/data/vdh/16/11617.json (69%)
+ rewrite api/db/data/vdh/16/11619.json (71%)
+ rewrite api/db/data/vdh/16/11620.json (67%)
+ rewrite api/db/data/vdh/16/11630.json (66%)
+ rewrite api/db/data/vdh/16/9288.json (65%)
+ rewrite api/db/data/vdh/16/9290.json (73%)
+ rewrite api/db/data/vdh/17/10308.json (61%)
+ rewrite api/db/data/vdh/17/9537.json (76%)
+ rewrite api/db/data/vdh/17/9646.json (62%)
+ rewrite api/db/data/vdh/17/9834.json (70%)
+ rewrite api/db/data/vdh/17/cruises.json (72%)
+ rewrite api/db/data/vdh/29/10059.json (63%)
+ rewrite api/db/data/vdh/29/10177.json (77%)
+ rewrite api/db/data/vdh/29/10418.json (61%)
+ rewrite api/db/data/vdh/29/10419.json (63%)
+ rewrite api/db/data/vdh/29/11491.json (76%)
+ rewrite api/db/data/vdh/29/11498.json (71%)
+ rewrite api/db/data/vdh/29/11507.json (62%)
+ rewrite api/db/data/vdh/29/11640.json (67%)
+ rewrite api/db/data/vdh/29/11671.json (77%)
+ rewrite api/db/data/vdh/29/9695.json (65%)
+ rewrite api/db/data/vdh/29/9712.json (72%)
+ rewrite api/db/data/vdh/29/9747.json (76%)
+ rewrite api/db/data/vdh/29/9765.json (62%)
+ rewrite api/db/data/vdh/32/10262.json (77%)
+ rewrite api/db/data/vdh/32/11167.json (66%)
+ delete mode 100644 api/db/data/vdh/32/9425.json
+ rewrite api/db/data/vdh/32/9426.json (82%)
+ rewrite api/db/data/vdh/32/9427.json (61%)
+ rewrite api/db/data/vdh/32/9428.json (70%)
+ rewrite api/db/data/vdh/32/9429.json (74%)
+ rewrite api/db/data/vdh/32/9433.json (68%)
+ rewrite api/db/data/vdh/32/cruises.json (63%)
+ rewrite api/db/data/vdh/37/10314.json (71%)
+ rewrite api/db/data/vdh/37/11140.json (66%)
+ rewrite api/db/data/vdh/37/9975.json (77%)
+ rewrite api/db/data/vdh/37/9976.json (81%)
+ delete mode 100644 api/db/data/vdh/42/11040.json
+ rewrite api/db/data/vdh/42/11041.json (89%)
+ rewrite api/db/data/vdh/42/11042.json (77%)
+ rewrite api/db/data/vdh/42/11043.json (89%)
+ delete mode 100644 api/db/data/vdh/42/11096.json
+ rewrite api/db/data/vdh/42/11097.json (73%)
+ rewrite api/db/data/vdh/42/11102.json (65%)
+ rewrite api/db/data/vdh/42/11114.json (86%)
+ rewrite api/db/data/vdh/42/11283.json (82%)
+ delete mode 100644 api/db/data/vdh/42/11571.json
+ rewrite api/db/data/vdh/42/cruises.json (68%)
+ rewrite api/db/data/vdh/50/10152.json (66%)
+ rewrite api/db/data/vdh/50/10235.json (87%)
+ rewrite api/db/data/vdh/50/10238.json (69%)
+ delete mode 100644 api/db/data/vdh/50/10364.json
+ rewrite api/db/data/vdh/50/10366.json (63%)
+ delete mode 100644 api/db/data/vdh/50/11747.json
+ rewrite api/db/data/vdh/7/11581.json (68%)
+ rewrite api/db/data/vdh/7/11741.json (92%)
+ rewrite api/db/data/vdh/7/11742.json (74%)
+ rewrite api/db/data/vdh/7/11743.json (78%)
+ rewrite api/db/data/vdh/7/cruises.json (68%)
+ rewrite api/db/data/vdh/9/11062.json (72%)
+ rewrite api/db/data/vdh/9/11063.json (62%)
+ rewrite api/db/data/vdh/9/11064.json (66%)
+ rewrite api/db/data/vdh/9/11065.json (80%)
+ rewrite api/db/data/vdh/9/11068.json (79%)
+ rewrite api/db/data/vdh/9/11069.json (66%)
+ rewrite api/db/data/vdh/9/11070.json (68%)
+ rewrite api/db/data/vdh/9/11071.json (72%)
+ rewrite api/db/data/vdh/9/11076.json (73%)
+ rewrite api/db/data/vdh/9/11084.json (65%)
+ rewrite api/db/data/vdh/9/11085.json (63%)
+ delete mode 100644 api/db/data/vdh/9/11749.json
+ rewrite api/db/data/vdh/90/10438.json (92%)
+ rewrite api/db/data/vdh/90/cruises.json (73%)
+ rewrite api/db/data/vdh/cruises.json (79%)
