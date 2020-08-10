@@ -150,7 +150,7 @@ foreach($local_ships_list as $ship_id=>$ship_name){
 		$ship_desc = json_decode(file_get_contents($desc.$ship_id));
 		$count++;
 		if($ship_desc){
-		    $find = '«Созвездия»';
+		    $find = 'Созвездия';
 		    $clean_desc = str_replace($find, '', $ship_desc);
 			file_put_contents($base_dir.'/'.$ship_id.'/description.json', json_encode($clean_desc));
 		}
