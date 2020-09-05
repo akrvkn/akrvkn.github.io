@@ -1,1 +1,300 @@
 Уже обновлено.
+[master c1aad1d45] Updated db 2020-09-04 08:02
+ 486 files changed, 385 insertions(+), 432 deletions(-)
+ rewrite api/db/cruises.json (65%)
+ rewrite api/db/data/106/tours.json (84%)
+ delete mode 100644 api/db/data/111/335127.json
+ delete mode 100644 api/db/data/111/338475.json
+ delete mode 100644 api/db/data/111/350946.json
+ rename api/db/data/111/{358864.json => 359038.json} (100%)
+ rewrite api/db/data/111/tours.json (62%)
+ delete mode 100644 api/db/data/12/358451.json
+ rewrite api/db/data/12/tours.json (70%)
+ delete mode 100644 api/db/data/141/337334.json
+ rewrite api/db/data/141/tours.json (80%)
+ rewrite api/db/data/193/tours.json (66%)
+ rewrite api/db/data/2/tours.json (88%)
+ rewrite api/db/data/214/tours.json (81%)
+ rewrite api/db/data/219/tours.json (79%)
+ rewrite api/db/data/222/tours.json (76%)
+ delete mode 100644 api/db/data/226/335043.json
+ delete mode 100644 api/db/data/226/335065.json
+ rewrite api/db/data/226/tours.json (70%)
+ rewrite api/db/data/228/cabins.json (100%)
+ rewrite api/db/data/228/tours.json (79%)
+ delete mode 100644 api/db/data/230/319422.json
+ rewrite api/db/data/230/tours.json (86%)
+ rewrite api/db/data/231/tours.json (72%)
+ delete mode 100644 api/db/data/241/cabins.json
+ delete mode 100644 api/db/data/241/description.json
+ rewrite api/db/data/260/tours.json (85%)
+ rewrite api/db/data/27/333025.json (100%)
+ delete mode 100644 api/db/data/3/332667.json
+ rewrite api/db/data/3/tours.json (70%)
+ rewrite api/db/data/31/tours.json (69%)
+ delete mode 100644 api/db/data/33/336071.json
+ rewrite api/db/data/33/tours.json (67%)
+ delete mode 100644 api/db/data/38/351924.json
+ delete mode 100644 api/db/data/38/353300.json
+ delete mode 100644 api/db/data/38/353301.json
+ delete mode 100644 api/db/data/38/353302.json
+ delete mode 100644 api/db/data/38/356613.json
+ create mode 100644 api/db/data/38/358960.json
+ create mode 100644 api/db/data/38/358961.json
+ create mode 100644 api/db/data/38/358962.json
+ create mode 100644 api/db/data/38/358963.json
+ create mode 100644 api/db/data/38/359036.json
+ create mode 100644 api/db/data/38/359037.json
+ rewrite api/db/data/38/tours.json (79%)
+ delete mode 100644 api/db/data/4/351909.json
+ delete mode 100644 api/db/data/4/351910.json
+ delete mode 100644 api/db/data/4/356996.json
+ delete mode 100644 api/db/data/4/358879.json
+ create mode 100644 api/db/data/4/358964.json
+ create mode 100644 api/db/data/4/358965.json
+ create mode 100644 api/db/data/4/358966.json
+ rename api/db/data/4/{351911.json => 358967.json} (69%)
+ rename api/db/data/4/{358878.json => 359048.json} (66%)
+ create mode 100644 api/db/data/4/359049.json
+ create mode 100644 api/db/data/4/359050.json
+ rewrite api/db/data/4/tours.json (80%)
+ delete mode 100644 api/db/data/44/333346.json
+ rewrite api/db/data/44/358580.json (100%)
+ rewrite api/db/data/44/358581.json (100%)
+ rewrite api/db/data/44/358582.json (100%)
+ rewrite api/db/data/44/358583.json (100%)
+ create mode 100644 api/db/data/44/359047.json
+ rewrite api/db/data/44/tours.json (77%)
+ delete mode 100644 api/db/data/46/337945.json
+ delete mode 100644 api/db/data/46/337997.json
+ delete mode 100644 api/db/data/46/338028.json
+ delete mode 100644 api/db/data/46/338029.json
+ delete mode 100644 api/db/data/46/338097.json
+ delete mode 100644 api/db/data/46/338099.json
+ delete mode 100644 api/db/data/46/338198.json
+ delete mode 100644 api/db/data/46/338200.json
+ delete mode 100644 api/db/data/46/338312.json
+ delete mode 100644 api/db/data/46/347728.json
+ delete mode 100644 api/db/data/46/347729.json
+ delete mode 100644 api/db/data/46/351528.json
+ delete mode 100644 api/db/data/46/351529.json
+ delete mode 100644 api/db/data/46/351839.json
+ delete mode 100644 api/db/data/46/351857.json
+ delete mode 100644 api/db/data/46/352270.json
+ delete mode 100644 api/db/data/46/352285.json
+ rewrite api/db/data/46/tours.json (76%)
+ create mode 100644 api/db/data/47/337924.json
+ rename api/db/data/{193/340897.json => 47/338009.json} (100%)
+ rename api/db/data/{193/358333.json => 47/338010.json} (100%)
+ rename api/db/data/{193/358334.json => 47/338011.json} (100%)
+ create mode 100644 api/db/data/47/338065.json
+ rename api/db/data/{222/355010.json => 47/338066.json} (100%)
+ rename api/db/data/{222/358422.json => 47/338067.json} (100%)
+ rename api/db/data/{241/tours.json => 47/338068.json} (100%)
+ copy api/db/data/{27/333025.json => 47/338069.json} (100%)
+ create mode 100644 api/db/data/47/338124.json
+ create mode 100644 api/db/data/47/338125.json
+ create mode 100644 api/db/data/47/338169.json
+ rename api/db/data/{31/350887.json => 47/338170.json} (100%)
+ rename api/db/data/{31/350888.json => 47/338171.json} (100%)
+ copy api/db/data/{44/358580.json => 47/338172.json} (100%)
+ copy api/db/data/{44/358581.json => 47/338173.json} (100%)
+ create mode 100644 api/db/data/47/338224.json
+ create mode 100644 api/db/data/47/338276.json
+ create mode 100644 api/db/data/47/338277.json
+ create mode 100644 api/db/data/47/338278.json
+ copy api/db/data/{44/358582.json => 47/338297.json} (100%)
+ copy api/db/data/{44/358583.json => 47/338298.json} (100%)
+ rename api/db/data/{46/337946.json => 47/338299.json} (100%)
+ rename api/db/data/{46/337998.json => 47/347635.json} (100%)
+ rename api/db/data/{46/338098.json => 47/347636.json} (100%)
+ rename api/db/data/{46/338199.json => 47/347637.json} (100%)
+ create mode 100644 api/db/data/47/347691.json
+ create mode 100644 api/db/data/47/351536.json
+ create mode 100644 api/db/data/47/351842.json
+ rename api/db/data/{46/347621.json => 47/352211.json} (100%)
+ rename api/db/data/{46/347672.json => 47/352212.json} (100%)
+ rename api/db/data/{46/347673.json => 47/352213.json} (100%)
+ create mode 100644 api/db/data/47/352217.json
+ rewrite api/db/data/478/tours.json (82%)
+ delete mode 100644 api/db/data/487/334426.json
+ delete mode 100644 api/db/data/487/334445.json
+ delete mode 100644 api/db/data/487/358502.json
+ delete mode 100644 api/db/data/487/358503.json
+ rewrite api/db/data/487/tours.json (69%)
+ rewrite api/db/data/498/358886.json (81%)
+ rewrite api/db/data/498/358887.json (82%)
+ rewrite api/db/data/498/358888.json (74%)
+ rewrite api/db/data/498/tours.json (80%)
+ delete mode 100644 api/db/data/52/338864.json
+ rewrite api/db/data/52/tours.json (80%)
+ rewrite api/db/data/571/tours.json (71%)
+ rewrite api/db/data/595/cabins.json (88%)
+ rewrite api/db/data/595/tours.json (93%)
+ delete mode 100644 api/db/data/61/338738.json
+ delete mode 100644 api/db/data/61/338739.json
+ delete mode 100644 api/db/data/61/338740.json
+ rewrite api/db/data/61/tours.json (60%)
+ delete mode 100644 api/db/data/64/325347.json
+ delete mode 100644 api/db/data/64/339004.json
+ delete mode 100644 api/db/data/64/357137.json
+ rename api/db/data/{46/347674.json => 64/359034.json} (100%)
+ rename api/db/data/{46/352269.json => 64/359035.json} (100%)
+ rewrite api/db/data/64/tours.json (61%)
+ rewrite api/db/data/7/tours.json (83%)
+ delete mode 100644 api/db/data/72/337122.json
+ delete mode 100644 api/db/data/72/357960.json
+ rewrite api/db/data/72/tours.json (65%)
+ rewrite api/db/data/77/tours.json (63%)
+ delete mode 100644 api/db/data/83/358442.json
+ rewrite api/db/data/83/tours.json (69%)
+ delete mode 100644 api/db/data/84/337691.json
+ delete mode 100644 api/db/data/84/337716.json
+ rewrite api/db/data/84/337749.json (86%)
+ rewrite api/db/data/84/337790.json (86%)
+ rewrite api/db/data/84/337838.json (75%)
+ rewrite api/db/data/84/337888.json (88%)
+ delete mode 100644 api/db/data/84/347649.json
+ rewrite api/db/data/84/347652.json (72%)
+ delete mode 100644 api/db/data/84/347706.json
+ rewrite api/db/data/84/348108.json (67%)
+ delete mode 100644 api/db/data/84/351509.json
+ delete mode 100644 api/db/data/84/351510.json
+ delete mode 100644 api/db/data/84/351831.json
+ rewrite api/db/data/84/351850.json (71%)
+ delete mode 100644 api/db/data/84/352249.json
+ rewrite api/db/data/84/352252.json (60%)
+ rewrite api/db/data/84/tours.json (70%)
+ create mode 100644 api/db/data/927/359039.json
+ create mode 100644 api/db/data/927/359040.json
+ create mode 100644 api/db/data/927/359041.json
+ rewrite api/db/data/927/tours.json (75%)
+ rewrite api/db/data/95/tours.json (73%)
+ delete mode 100644 api/db/data/99/333045.json
+ rewrite api/db/data/99/tours.json (93%)
+ delete mode 100644 api/db/data/vdh/10/10012.json
+ rewrite api/db/data/vdh/10/10013.json (86%)
+ rewrite api/db/data/vdh/10/10014.json (87%)
+ copy api/db/data/vdh/10/{11998.json => 10664.json} (61%)
+ rewrite api/db/data/vdh/10/10665.json (95%)
+ rewrite api/db/data/vdh/10/10666.json (95%)
+ rewrite api/db/data/vdh/10/11994.json (97%)
+ rewrite api/db/data/vdh/10/11998.json (96%)
+ rewrite api/db/data/vdh/10/11999.json (95%)
+ rewrite api/db/data/vdh/10/cruises.json (87%)
+ rewrite api/db/data/vdh/11/11906.json (66%)
+ rewrite api/db/data/vdh/11/11914.json (60%)
+ rewrite api/db/data/vdh/11/9396.json (72%)
+ rewrite api/db/data/vdh/11/9398.json (68%)
+ rewrite api/db/data/vdh/15/11227.json (65%)
+ rewrite api/db/data/vdh/15/11603.json (69%)
+ rewrite api/db/data/vdh/15/11604.json (67%)
+ rewrite api/db/data/vdh/15/11605.json (70%)
+ rewrite api/db/data/vdh/15/11606.json (69%)
+ rewrite api/db/data/vdh/15/9609.json (67%)
+ rewrite api/db/data/vdh/15/9610.json (71%)
+ rewrite api/db/data/vdh/16/11292.json (61%)
+ rewrite api/db/data/vdh/16/11294.json (80%)
+ rewrite api/db/data/vdh/16/11296.json (67%)
+ rewrite api/db/data/vdh/16/11328.json (65%)
+ rewrite api/db/data/vdh/16/11629.json (70%)
+ rewrite api/db/data/vdh/16/11630.json (67%)
+ create mode 100644 api/db/data/vdh/16/12087.json
+ delete mode 100644 api/db/data/vdh/17/10413.json
+ rewrite api/db/data/vdh/17/10575.json (61%)
+ rewrite api/db/data/vdh/17/11305.json (64%)
+ rewrite api/db/data/vdh/17/9643.json (66%)
+ rewrite api/db/data/vdh/17/cruises.json (67%)
+ delete mode 100644 api/db/data/vdh/29/10057.json
+ rewrite api/db/data/vdh/29/10058.json (74%)
+ rewrite api/db/data/vdh/29/10060.json (77%)
+ delete mode 100644 api/db/data/vdh/29/10172.json
+ rewrite api/db/data/vdh/29/10418.json (62%)
+ delete mode 100644 api/db/data/vdh/29/10557.json
+ rewrite api/db/data/vdh/29/10563.json (60%)
+ rewrite api/db/data/vdh/29/10565.json (60%)
+ copy api/db/data/vdh/29/{10563.json => 11441.json} (52%)
+ rewrite api/db/data/vdh/29/11454.json (65%)
+ rewrite api/db/data/vdh/29/11464.json (61%)
+ rewrite api/db/data/vdh/29/11499.json (63%)
+ rewrite api/db/data/vdh/29/11506.json (67%)
+ rewrite api/db/data/vdh/29/11928.json (70%)
+ rewrite api/db/data/vdh/29/11931.json (63%)
+ rewrite api/db/data/vdh/29/9737.json (65%)
+ rewrite api/db/data/vdh/3/12069.json (63%)
+ rewrite api/db/data/vdh/32/10268.json (61%)
+ delete mode 100644 api/db/data/vdh/32/10347.json
+ rewrite api/db/data/vdh/32/11168.json (60%)
+ rewrite api/db/data/vdh/32/11169.json (61%)
+ delete mode 100644 api/db/data/vdh/32/11289.json
+ rewrite api/db/data/vdh/32/11290.json (83%)
+ rewrite api/db/data/vdh/32/11946.json (61%)
+ create mode 100644 api/db/data/vdh/32/12082.json
+ create mode 100644 api/db/data/vdh/32/12083.json
+ delete mode 100644 api/db/data/vdh/32/9431.json
+ rewrite api/db/data/vdh/32/9433.json (67%)
+ rewrite api/db/data/vdh/32/9434.json (66%)
+ rewrite api/db/data/vdh/32/9437.json (78%)
+ rewrite api/db/data/vdh/32/cruises.json (63%)
+ rewrite api/db/data/vdh/37/10002.json (64%)
+ rewrite api/db/data/vdh/37/11139.json (69%)
+ rewrite api/db/data/vdh/37/11140.json (63%)
+ delete mode 100644 api/db/data/vdh/37/9978.json
+ rewrite api/db/data/vdh/37/9979.json (74%)
+ rewrite api/db/data/vdh/37/9980.json (90%)
+ rewrite api/db/data/vdh/37/cruises.json (88%)
+ rewrite api/db/data/vdh/42/11045.json (88%)
+ rewrite api/db/data/vdh/42/11046.json (62%)
+ rewrite api/db/data/vdh/42/11106.json (66%)
+ rewrite api/db/data/vdh/42/11107.json (72%)
+ rewrite api/db/data/vdh/42/11285.json (87%)
+ delete mode 100644 api/db/data/vdh/42/12046.json
+ rewrite api/db/data/vdh/42/cruises.json (68%)
+ delete mode 100644 api/db/data/vdh/50/10121.json
+ delete mode 100644 api/db/data/vdh/50/10126.json
+ rewrite api/db/data/vdh/50/10128.json (60%)
+ delete mode 100644 api/db/data/vdh/50/10149.json
+ rewrite api/db/data/vdh/50/11423.json (65%)
+ rewrite api/db/data/vdh/50/11811.json (74%)
+ rewrite api/db/data/vdh/50/11966.json (74%)
+ rewrite api/db/data/vdh/50/12029.json (64%)
+ rewrite api/db/data/vdh/50/12034.json (65%)
+ rewrite api/db/data/vdh/50/12058.json (66%)
+ rewrite api/db/data/vdh/50/12066.json (62%)
+ rewrite api/db/data/vdh/50/12072.json (64%)
+ rewrite api/db/data/vdh/6/11346.json (61%)
+ rewrite api/db/data/vdh/69/11381.json (84%)
+ rewrite api/db/data/vdh/7/11547.json (67%)
+ rewrite api/db/data/vdh/7/11549.json (63%)
+ rewrite api/db/data/vdh/7/11550.json (69%)
+ rewrite api/db/data/vdh/7/11551.json (70%)
+ delete mode 100644 api/db/data/vdh/7/11585.json
+ rewrite api/db/data/vdh/7/11586.json (72%)
+ rewrite api/db/data/vdh/7/11587.json (74%)
+ rewrite api/db/data/vdh/7/cruises.json (72%)
+ delete mode 100644 api/db/data/vdh/9/11071.json
+ delete mode 100644 api/db/data/vdh/9/11074.json
+ rewrite api/db/data/vdh/9/11076.json (84%)
+ rewrite api/db/data/vdh/9/11078.json (66%)
+ rewrite api/db/data/vdh/9/11080.json (64%)
+ rewrite api/db/data/vdh/9/11082.json (65%)
+ rewrite api/db/data/vdh/9/11120.json (61%)
+ rewrite api/db/data/vdh/9/11235.json (71%)
+ rewrite api/db/data/vdh/9/11237.json (71%)
+ rewrite api/db/data/vdh/90/11111.json (72%)
+ rewrite api/db/data/vdh/90/11126.json (91%)
+ rewrite api/db/data/vdh/90/11127.json (92%)
+ rewrite api/db/data/vdh/90/11128.json (91%)
+ rewrite api/db/data/vdh/90/11129.json (77%)
+ rewrite api/db/data/vdh/90/11130.json (86%)
+ rewrite api/db/data/vdh/90/11131.json (88%)
+ rewrite api/db/data/vdh/90/11282.json (76%)
+ rewrite api/db/data/vdh/90/11554.json (78%)
+ rewrite api/db/data/vdh/90/11558.json (93%)
+ rewrite api/db/data/vdh/90/11560.json (90%)
+ rewrite api/db/data/vdh/90/12013.json (69%)
+ rewrite api/db/data/vdh/90/12061.json (93%)
+ rewrite api/db/data/vdh/90/12063.json (93%)
+ rewrite api/db/data/vdh/90/12064.json (92%)
+ rewrite api/db/data/vdh/90/cruises.json (68%)
+ rewrite api/db/data/vdh/cruises.json (77%)
