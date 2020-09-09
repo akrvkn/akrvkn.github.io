@@ -204,3 +204,8 @@ permalink: /baikal2
 		</td>
 	</tr>
 </table>
+
+*******
+## Оформить бронирование
+
+{% include forms/booking-form.html %}
