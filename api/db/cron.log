@@ -1,1 +1,153 @@
 Уже обновлено.
+[master 26de8ce53] Updated db 2020-09-25 08:03
+ 255 files changed, 234 insertions(+), 225 deletions(-)
+ delete mode 100644 api/db/data/111/338476.json
+ rewrite api/db/data/111/tours.json (63%)
+ rewrite api/db/data/12/tours.json (75%)
+ rename api/db/data/193/{360233.json => tours.json} (100%)
+ rewrite api/db/data/214/tours.json (65%)
+ rewrite api/db/data/231/tours.json (70%)
+ rewrite api/db/data/260/tours.json (85%)
+ rewrite api/db/data/3/tours.json (65%)
+ rewrite api/db/data/31/tours.json (72%)
+ rewrite api/db/data/33/tours.json (62%)
+ delete mode 100644 api/db/data/4/358647.json
+ rewrite api/db/data/4/tours.json (82%)
+ create mode 100644 api/db/data/44/360631.json
+ rename api/db/data/{260/356700.json => 44/360632.json} (100%)
+ rename api/db/data/{31/356598.json => 44/360633.json} (100%)
+ delete mode 100644 api/db/data/46/359784.json
+ delete mode 100644 api/db/data/46/359787.json
+ delete mode 100644 api/db/data/46/360244.json
+ delete mode 100644 api/db/data/46/360245.json
+ delete mode 100644 api/db/data/46/360382.json
+ delete mode 100644 api/db/data/46/360383.json
+ rewrite api/db/data/46/tours.json (60%)
+ delete mode 100644 api/db/data/498/359077.json
+ rewrite api/db/data/498/tours.json (83%)
+ rewrite api/db/data/571/tours.json (61%)
+ rename api/db/data/{46/359783.json => 61/360630.json} (100%)
+ rewrite api/db/data/64/tours.json (61%)
+ rewrite api/db/data/72/tours.json (62%)
+ delete mode 100644 api/db/data/84/352232.json
+ delete mode 100644 api/db/data/927/356651.json
+ delete mode 100644 api/db/data/927/356652.json
+ rewrite api/db/data/927/tours.json (76%)
+ rewrite api/db/data/99/tours.json (69%)
+ delete mode 100644 api/db/data/vdh/10/10014.json
+ rewrite api/db/data/vdh/10/11200.json (92%)
+ rewrite api/db/data/vdh/10/11201.json (92%)
+ rewrite api/db/data/vdh/10/11203.json (94%)
+ rewrite api/db/data/vdh/10/11204.json (94%)
+ rewrite api/db/data/vdh/10/11205.json (94%)
+ rewrite api/db/data/vdh/10/11206.json (94%)
+ rewrite api/db/data/vdh/10/11207.json (94%)
+ copy api/db/data/vdh/10/{11210.json => 11208.json} (90%)
+ rewrite api/db/data/vdh/10/11209.json (94%)
+ rewrite api/db/data/vdh/10/11210.json (94%)
+ rewrite api/db/data/vdh/10/11211.json (92%)
+ rewrite api/db/data/vdh/10/11212.json (92%)
+ rewrite api/db/data/vdh/10/11213.json (94%)
+ rewrite api/db/data/vdh/10/11994.json (96%)
+ rewrite api/db/data/vdh/10/12088.json (91%)
+ rewrite api/db/data/vdh/10/12089.json (93%)
+ rewrite api/db/data/vdh/10/12112.json (93%)
+ rewrite api/db/data/vdh/10/cruises.json (87%)
+ delete mode 100644 api/db/data/vdh/11/11331.json
+ rewrite api/db/data/vdh/11/12090.json (72%)
+ rewrite api/db/data/vdh/11/cruises.json (71%)
+ rewrite api/db/data/vdh/15/11225.json (89%)
+ rewrite api/db/data/vdh/15/9610.json (69%)
+ rewrite api/db/data/vdh/16/11294.json (68%)
+ rewrite api/db/data/vdh/16/11296.json (60%)
+ rewrite api/db/data/vdh/16/11320.json (60%)
+ rewrite api/db/data/vdh/17/11397.json (75%)
+ rewrite api/db/data/vdh/17/12138.json (73%)
+ rewrite api/db/data/vdh/17/9648.json (78%)
+ rewrite api/db/data/vdh/17/cruises.json (64%)
+ copy api/db/data/vdh/29/{11468.json => 11433.json} (53%)
+ rewrite api/db/data/vdh/29/11468.json (60%)
+ rewrite api/db/data/vdh/29/11497.json (62%)
+ rewrite api/db/data/vdh/29/11499.json (61%)
+ rewrite api/db/data/vdh/29/11502.json (70%)
+ rewrite api/db/data/vdh/29/11509.json (71%)
+ rewrite api/db/data/vdh/29/11920.json (64%)
+ rewrite api/db/data/vdh/29/12158.json (60%)
+ rewrite api/db/data/vdh/29/12159.json (85%)
+ rewrite api/db/data/vdh/29/12205.json (82%)
+ delete mode 100644 api/db/data/vdh/29/9949.json
+ rewrite api/db/data/vdh/32/11168.json (66%)
+ rewrite api/db/data/vdh/32/11171.json (67%)
+ rewrite api/db/data/vdh/32/11286.json (61%)
+ rewrite api/db/data/vdh/32/11288.json (60%)
+ rewrite api/db/data/vdh/32/11290.json (60%)
+ create mode 100644 api/db/data/vdh/36/12215.json
+ create mode 100644 api/db/data/vdh/36/12216.json
+ create mode 100644 api/db/data/vdh/36/12217.json
+ create mode 100644 api/db/data/vdh/36/12218.json
+ create mode 100644 api/db/data/vdh/36/12219.json
+ create mode 100644 api/db/data/vdh/36/12221.json
+ create mode 100644 api/db/data/vdh/36/12222.json
+ create mode 100644 api/db/data/vdh/36/12223.json
+ create mode 100644 api/db/data/vdh/36/12224.json
+ create mode 100644 api/db/data/vdh/36/12225.json
+ create mode 100644 api/db/data/vdh/36/12227.json
+ create mode 100644 api/db/data/vdh/36/12228.json
+ create mode 100644 api/db/data/vdh/36/12229.json
+ create mode 100644 api/db/data/vdh/36/12233.json
+ create mode 100644 api/db/data/vdh/36/12234.json
+ create mode 100644 api/db/data/vdh/36/12235.json
+ create mode 100644 api/db/data/vdh/36/12237.json
+ create mode 100644 api/db/data/vdh/36/12238.json
+ create mode 100644 api/db/data/vdh/36/12239.json
+ create mode 100644 api/db/data/vdh/36/12240.json
+ create mode 100644 api/db/data/vdh/36/12241.json
+ create mode 100644 api/db/data/vdh/36/12242.json
+ create mode 100644 api/db/data/vdh/36/cruises.json
+ rewrite api/db/data/vdh/37/10316.json (60%)
+ rewrite api/db/data/vdh/37/11143.json (66%)
+ rewrite api/db/data/vdh/42/11283.json (64%)
+ rewrite api/db/data/vdh/50/11416.json (66%)
+ rewrite api/db/data/vdh/50/12036.json (60%)
+ rewrite api/db/data/vdh/50/12081.json (68%)
+ rewrite api/db/data/vdh/50/12173.json (66%)
+ rewrite api/db/data/vdh/6/11674.json (74%)
+ rewrite api/db/data/vdh/7/12169.json (66%)
+ rewrite api/db/data/vdh/90/11127.json (60%)
+ rewrite api/db/data/vdh/90/11128.json (82%)
+ rewrite api/db/data/vdh/90/11132.json (62%)
+ rewrite api/db/data/vdh/90/11187.json (87%)
+ rewrite api/db/data/vdh/90/11188.json (83%)
+ rewrite api/db/data/vdh/90/11189.json (84%)
+ delete mode 100644 api/db/data/vdh/90/11558.json
+ delete mode 100644 api/db/data/vdh/90/11560.json
+ copy api/db/data/vdh/90/{12121.json => 12113.json} (53%)
+ rewrite api/db/data/vdh/90/12114.json (87%)
+ rewrite api/db/data/vdh/90/12115.json (87%)
+ rewrite api/db/data/vdh/90/12116.json (86%)
+ rewrite api/db/data/vdh/90/12118.json (86%)
+ rewrite api/db/data/vdh/90/12119.json (88%)
+ rewrite api/db/data/vdh/90/12120.json (86%)
+ rewrite api/db/data/vdh/90/12121.json (87%)
+ rewrite api/db/data/vdh/90/12122.json (86%)
+ rewrite api/db/data/vdh/90/12123.json (85%)
+ rewrite api/db/data/vdh/90/12129.json (65%)
+ rewrite api/db/data/vdh/90/12178.json (85%)
+ rewrite api/db/data/vdh/90/12179.json (84%)
+ rewrite api/db/data/vdh/90/12180.json (84%)
+ rewrite api/db/data/vdh/90/12181.json (84%)
+ rewrite api/db/data/vdh/90/12183.json (84%)
+ rewrite api/db/data/vdh/90/12184.json (84%)
+ rewrite api/db/data/vdh/90/12185.json (85%)
+ rewrite api/db/data/vdh/90/12186.json (84%)
+ rewrite api/db/data/vdh/90/12187.json (82%)
+ rewrite api/db/data/vdh/90/12188.json (84%)
+ rewrite api/db/data/vdh/90/12195.json (91%)
+ rewrite api/db/data/vdh/90/12196.json (90%)
+ rewrite api/db/data/vdh/90/12197.json (94%)
+ rewrite api/db/data/vdh/90/12198.json (88%)
+ rewrite api/db/data/vdh/90/12199.json (87%)
+ create mode 100644 api/db/data/vdh/90/12207.json
+ create mode 100644 api/db/data/vdh/90/12208.json
+ rewrite api/db/data/vdh/90/cruises.json (64%)
+ rewrite api/db/data/vdh/cruises.json (68%)
