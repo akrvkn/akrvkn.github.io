@@ -1,1 +1,49 @@
 Уже обновлено.
+[master 80374649e] Updated db 2020-10-05 08:13
+ 88 files changed, 72 insertions(+), 87 deletions(-)
+ rewrite api/db/cruises.json (63%)
+ delete mode 100644 api/db/data/111/360568.json
+ rewrite api/db/data/111/tours.json (62%)
+ rewrite api/db/data/214/tours.json (69%)
+ rewrite api/db/data/230/tours.json (72%)
+ rewrite api/db/data/231/tours.json (88%)
+ delete mode 100644 api/db/data/25/357848.json
+ rewrite api/db/data/25/tours.json (61%)
+ rewrite api/db/data/260/tours.json (64%)
+ delete mode 100644 api/db/data/33/357954.json
+ rewrite api/db/data/33/tours.json (64%)
+ rewrite api/db/data/4/tours.json (70%)
+ delete mode 100644 api/db/data/64/325188.json
+ rewrite api/db/data/64/tours.json (62%)
+ delete mode 100644 api/db/data/77/332550.json
+ rewrite api/db/data/77/tours.json (84%)
+ rename api/db/data/{231/358802.json => 83/351802.json} (100%)
+ rewrite api/db/data/927/tours.json (64%)
+ delete mode 100644 api/db/data/99/333049.json
+ rewrite api/db/data/99/tours.json (86%)
+ delete mode 100644 api/db/data/vdh/11/12090.json
+ rewrite api/db/data/vdh/11/cruises.json (83%)
+ delete mode 100644 api/db/data/vdh/15/11609.json
+ rewrite api/db/data/vdh/15/11610.json (86%)
+ rewrite api/db/data/vdh/15/cruises.json (70%)
+ delete mode 100644 api/db/data/vdh/16/11293.json
+ rewrite api/db/data/vdh/16/11294.json (69%)
+ rewrite api/db/data/vdh/16/11296.json (72%)
+ delete mode 100644 api/db/data/vdh/16/12261.json
+ rewrite api/db/data/vdh/16/cruises.json (69%)
+ delete mode 100644 api/db/data/vdh/17/12138.json
+ rewrite api/db/data/vdh/17/cruises.json (68%)
+ rewrite api/db/data/vdh/29/11483.json (63%)
+ rewrite api/db/data/vdh/32/11286.json (61%)
+ delete mode 100644 api/db/data/vdh/32/9435.json
+ rewrite api/db/data/vdh/32/cruises.json (73%)
+ delete mode 100644 api/db/data/vdh/42/12231.json
+ delete mode 100644 api/db/data/vdh/42/12258.json
+ rewrite api/db/data/vdh/42/cruises.json (81%)
+ delete mode 100644 api/db/data/vdh/50/12022.json
+ rewrite api/db/data/vdh/50/cruises.json (89%)
+ rewrite api/db/data/vdh/69/11385.json (83%)
+ rewrite api/db/data/vdh/7/12108.json (88%)
+ rewrite api/db/data/vdh/7/12189.json (66%)
+ rewrite api/db/data/vdh/90/12129.json (69%)
+ rewrite api/db/data/vdh/90/12195.json (94%)
