@@ -4,10 +4,18 @@
 <script src='/assets/js/lightbox.min.js'></script>
 <script src='/assets/lib/DataTables-1.10.16/js/jquery.dataTables.js'></script>
 <script src='/assets/js/posts.js'></script>
-<script src='/assets/js/snowfall.jquery.min.js'></script>
+<!--<script src='/assets/js/snowfall.jquery.min.js'></script>-->
 {% if page.script %}
 <script src='/assets/js/{{ page.script }}'></script>
 {% endif %}
 <script>
     //$('body').snowfall({image :"/assets/images/flake.png", minSize: 10, maxSize:32});
+</script>
+<script type="text/javascript">
+    (function(c,s,t,r,e,a,m){c[e]=c[e]||function(){(c[e].q=c[e].q||[]).push(arguments)},c[e].p=
+        r,a=s.createElement(t),m=s.getElementsByTagName(t)[0],a.async=1,a.src=r,m.parentNode.insert
+        Before(a,m)})(window,document,'script','https://nlb-clickstream.sberbank.ru/clickstream.bundle.js','csa');
+    csa('init', {
+        /*clientId: 'ПОСТОЯННЫЙ_ИДЕНТИФИКАТОР_ПОЛЬЗОВАТЕЛЯ_ЕСЛИ_ЕСТЬ',*/
+    }, true, true);
 </script>
