@@ -1,1 +1,44 @@
 Уже обновлено.
+[master f6256fe84] Updated db 2020-11-03 07:52
+ 141 files changed, 137 insertions(+), 154 deletions(-)
+ rewrite api/db/cron.log (96%)
+ rewrite api/db/cruises.json (67%)
+ rewrite api/db/data/12/tours.json (61%)
+ rewrite api/db/data/214/cabins.json (99%)
+ delete mode 100644 api/db/data/214/description.json
+ rewrite api/db/data/214/tours.json (73%)
+ rewrite api/db/data/219/tours.json (85%)
+ delete mode 100644 api/db/data/228/description.json
+ rewrite api/db/data/260/tours.json (82%)
+ rewrite api/db/data/3/tours.json (65%)
+ rewrite api/db/data/31/tours.json (62%)
+ rewrite api/db/data/4/tours.json (76%)
+ rewrite api/db/data/47/cabins.json (76%)
+ delete mode 100644 api/db/data/47/description.json
+ rewrite api/db/data/478/tours.json (83%)
+ rewrite api/db/data/498/tours.json (78%)
+ rewrite api/db/data/52/cabins.json (99%)
+ delete mode 100644 api/db/data/52/description.json
+ rewrite api/db/data/61/tours.json (64%)
+ rewrite api/db/data/7/tours.json (74%)
+ rewrite api/db/data/84/cabins.json (70%)
+ rewrite api/db/data/vdh/17/11303.json (65%)
+ rewrite api/db/data/vdh/17/11306.json (64%)
+ rewrite api/db/data/vdh/17/11309.json (73%)
+ create mode 100644 api/db/data/vdh/17/11573.json
+ create mode 100644 api/db/data/vdh/17/11576.json
+ create mode 100644 api/db/data/vdh/17/11577.json
+ create mode 100644 api/db/data/vdh/17/11578.json
+ rewrite api/db/data/vdh/17/cruises.json (66%)
+ rewrite api/db/data/vdh/29/11475.json (62%)
+ rewrite api/db/data/vdh/29/11497.json (72%)
+ rewrite api/db/data/vdh/29/11502.json (62%)
+ rewrite api/db/data/vdh/29/11918.json (70%)
+ rewrite api/db/data/vdh/29/11941.json (60%)
+ rewrite api/db/data/vdh/29/12205.json (65%)
+ rewrite api/db/data/vdh/37/11139.json (65%)
+ rewrite api/db/data/vdh/4/12273.json (68%)
+ rewrite api/db/data/vdh/50/11960.json (66%)
+ rewrite api/db/data/vdh/69/11381.json (64%)
+ rewrite api/db/data/vdh/69/11387.json (60%)
+ rewrite api/db/data/vdh/90/11132.json (62%)
