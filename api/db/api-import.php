@@ -334,10 +334,11 @@ if ($handle = opendir($base_dir)) {
 							$table[$counter]['tourfinish'] = $datetime_end;
 							$table[$counter]['tourroute'] = trim(preg_replace('|\(.*\)|sU', '', $tour['cities']));
 							$table[$counter]['tourdays'] = $tour['days'];
-							$minprice = 100000000000000;
+							$minprice = 0;
 							$places = 0;
 							foreach($tour['prices'] as $price){
-								if($price['price']< $minprice&&$price['price']>0) $minprice = $price['price'];
+								//if($price['price']< $minprice && $price['price']>0) $minprice = $price['price'];
+								if($price['price']>0) $minprice = $price['price'];
 								$places += $price['places_free'];
 							}
 							$table[$counter]['tourminprice'] = $minprice;
