@@ -180,10 +180,27 @@ foreach($local_ships_list as $ship_id=>$ship_name){
 $counter = 0;
 $table = array();
 
-$mtf_cruises = json_decode(file_get_contents('https://www.mosturflot.ru/api/ajax/?request=tours&loading=true'));
+//$mtf_cruises = json_decode(file_get_contents('https://www.mosturflot.ru/api/ajax/?request=tours&loading=true'));
+$filterMtf = '&filter[ship-id][in][]=5&filter[ship-id][in][]=14&filter[ship-id][in][]=19&filter[ship-id][in][]=36&filter[ship-id][in][]=72&filter[ship-id][in][]=91&filter[ship-id][in][]=92&filter[ship-id][in][]=139&filter[ship-id][in][]=150&filter[ship-id][in][]=198&filter[ship-id][in][]=200&filter[ship-id][in][]=206&filter[ship-id][in][]=207&filter[ship-id][in][]=247';
 
-foreach($mtf_cruises->answer as $key=>$val){
-    //echo $val->shipname."\n";
+$mtf_cruises = json_decode(file_get_contents('https://api.mosturflot.ru/v3/rivercruises/tours?filter[start][gte]='.date("Y-m-d").'T00:00:00Z'.$filterMtf.'&per-page=1000'), true);
+
+foreach($mtf_cruises['data'] as $key=>$val){
+	$table[$counter]['company'] = 'mtf';
+	$table[$counter]['shipid'] = $val['attributes']['ship-id'];
+	$table[$counter]['shipname'] = $mtf_names[$val['attributes']['ship-id']];
+	$table[$counter]['tourid'] = $val['id'];
+	$table[$counter]['tourstart'] = $val['attributes']['start'];
+	$table[$counter]['tourfinish'] = $val['attributes']['finish'];
+	$table[$counter]['tourroute'] = $val['attributes']['route'];
+	$table[$counter]['tourdays'] = $val['attributes']['days'];
+	$table[$counter]['tourminprice'] = $val['attributes']['price-from'];
+	$table[$counter]['tourcabinsfree'] = '';
+
+	$counter++;
+}
+
+/**foreach($mtf_cruises->answer as $key=>$val){
     $table[$counter]['company'] = 'mtf';
     $table[$counter]['shipid'] = $val->shipid;
 	$table[$counter]['shipname'] = $val->shipname;
@@ -197,7 +214,8 @@ foreach($mtf_cruises->answer as $key=>$val){
 
 	$counter++;
     
-}
+}*/
+
 
 /**$vdh_cruises = json_decode(file_get_contents('https://www.rech-tour.ru/api/v1/cruises'));
 
