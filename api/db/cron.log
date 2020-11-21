@@ -1,1 +1,728 @@
-Уже обновлено.
+Обновление 96f1dc943..836e653d8
+Fast-forward
+ _includes/scripts.html                          |    1 +
+ _layouts/blog.html                              |    8 -
+ _layouts/full-width.html                        |    9 +-
+ _pages/detailes.html                            |    7 +-
+ assets/img/mtf/Esenin_02_1043x522.jpg           |  Bin 0 -> 85920 bytes
+ assets/img/mtf/Esenin_02_1043x522.webp          |  Bin 0 -> 55680 bytes
+ assets/img/mtf/Esenin_02_1920x960.jpg           |  Bin 0 -> 237500 bytes
+ assets/img/mtf/Esenin_02_1920x960.webp          |  Bin 0 -> 159156 bytes
+ assets/img/mtf/cabin.jpg                        |  Bin 0 -> 22580 bytes
+ assets/img/mtf/cabin_default.jpg                |  Bin 0 -> 19426 bytes
+ assets/img/mtf/deckplan.png                     |  Bin 0 -> 52549 bytes
+ assets/img/mtf/esenin.jpg                       |  Bin 0 -> 200342 bytes
+ assets/img/mtf/esenin.webp                      |  Bin 0 -> 174776 bytes
+ assets/img/mtf/globe-hero.jpg                   |  Bin 0 -> 80922 bytes
+ assets/img/mtf/globe-hero.webp                  |  Bin 0 -> 49800 bytes
+ assets/img/mtf/grin.jpg                         |  Bin 0 -> 279363 bytes
+ assets/img/mtf/grin.webp                        |  Bin 0 -> 339184 bytes
+ assets/img/mtf/header-globus.jpg                |  Bin 0 -> 97187 bytes
+ assets/img/mtf/header-globus.webp               |  Bin 0 -> 69118 bytes
+ assets/img/mtf/logo360.jpg                      |  Bin 0 -> 16187 bytes
+ assets/img/mtf/marker-ship.png                  |  Bin 0 -> 4877 bytes
+ assets/img/mtf/marker.png                       |  Bin 0 -> 4366 bytes
+ assets/img/mtf/ms_schema.png                    |  Bin 0 -> 67769 bytes
+ assets/img/mtf/no-photo.jpg                     |  Bin 0 -> 4883 bytes
+ assets/img/mtf/no-photo.webp                    |  Bin 0 -> 2344 bytes
+ assets/img/mtf/point.jpg                        |  Bin 0 -> 84330 bytes
+ assets/img/mtf/services/1.svg                   |    1 +
+ assets/img/mtf/services/10.svg                  |    1 +
+ assets/img/mtf/services/1000.svg                |    1 +
+ assets/img/mtf/services/11.svg                  |    1 +
+ assets/img/mtf/services/12.svg                  |    1 +
+ assets/img/mtf/services/14.svg                  |    1 +
+ assets/img/mtf/services/15.svg                  |    1 +
+ assets/img/mtf/services/16.svg                  |    1 +
+ assets/img/mtf/services/17.svg                  |    1 +
+ assets/img/mtf/services/18.svg                  |    1 +
+ assets/img/mtf/services/19.svg                  |    1 +
+ assets/img/mtf/services/2.svg                   |    1 +
+ assets/img/mtf/services/20.svg                  |    1 +
+ assets/img/mtf/services/21.svg                  |    1 +
+ assets/img/mtf/services/22.svg                  |    1 +
+ assets/img/mtf/services/23.svg                  |    1 +
+ assets/img/mtf/services/24.svg                  |    1 +
+ assets/img/mtf/services/25.svg                  |    1 +
+ assets/img/mtf/services/26.svg                  |    1 +
+ assets/img/mtf/services/27.svg                  |    1 +
+ assets/img/mtf/services/28.svg                  |    1 +
+ assets/img/mtf/services/29.svg                  |    1 +
+ assets/img/mtf/services/3.svg                   |    1 +
+ assets/img/mtf/services/30.svg                  |    1 +
+ assets/img/mtf/services/31.svg                  |    1 +
+ assets/img/mtf/services/32.svg                  |    1 +
+ assets/img/mtf/services/33.svg                  |    1 +
+ assets/img/mtf/services/333.svg                 |    1 +
+ assets/img/mtf/services/34.svg                  |    1 +
+ assets/img/mtf/services/35.svg                  |    1 +
+ assets/img/mtf/services/36.svg                  |    1 +
+ assets/img/mtf/services/37.svg                  |    1 +
+ assets/img/mtf/services/38.svg                  |    1 +
+ assets/img/mtf/services/39.svg                  |    1 +
+ assets/img/mtf/services/4.svg                   |    1 +
+ assets/img/mtf/services/40.svg                  |    1 +
+ assets/img/mtf/services/41.svg                  |    1 +
+ assets/img/mtf/services/44.svg                  |    1 +
+ assets/img/mtf/services/45.svg                  |    1 +
+ assets/img/mtf/services/46.svg                  |    1 +
+ assets/img/mtf/services/47.svg                  |    1 +
+ assets/img/mtf/services/470.svg                 |    1 +
+ assets/img/mtf/services/4700.svg                |    1 +
+ assets/img/mtf/services/48.svg                  |    1 +
+ assets/img/mtf/services/49.svg                  |    1 +
+ assets/img/mtf/services/5-Star hotel 2.svg      |    1 +
+ assets/img/mtf/services/5.svg                   |    1 +
+ assets/img/mtf/services/50.svg                  |    1 +
+ assets/img/mtf/services/51.svg                  |    1 +
+ assets/img/mtf/services/52.svg                  |    1 +
+ assets/img/mtf/services/53.svg                  |    1 +
+ assets/img/mtf/services/54.svg                  |    1 +
+ assets/img/mtf/services/55.svg                  |    1 +
+ assets/img/mtf/services/56.svg                  |    1 +
+ assets/img/mtf/services/57.svg                  |    1 +
+ assets/img/mtf/services/58.svg                  |    1 +
+ assets/img/mtf/services/59.svg                  |    1 +
+ assets/img/mtf/services/6.svg                   |    1 +
+ assets/img/mtf/services/7.svg                   |    1 +
+ assets/img/mtf/services/8.svg                   |    1 +
+ assets/img/mtf/services/9.svg                   |    1 +
+ assets/img/mtf/services/Air-Conditioner.svg     |    1 +
+ assets/img/mtf/services/Balloons.svg            |    1 +
+ assets/img/mtf/services/Baloon.svg              |    1 +
+ assets/img/mtf/services/Buddybuilding.svg       |    1 +
+ assets/img/mtf/services/Captin Hat.svg          |    1 +
+ assets/img/mtf/services/Desk.svg                |    1 +
+ assets/img/mtf/services/Elevator.svg            |    1 +
+ assets/img/mtf/services/First-ad.svg            |    1 +
+ assets/img/mtf/services/Game-Console 2.svg      |    1 +
+ assets/img/mtf/services/Guitar-Head 2.svg       |    1 +
+ assets/img/mtf/services/Hot Drink 1.svg         |    1 +
+ assets/img/mtf/services/Hot Drink 2.svg         |    1 +
+ assets/img/mtf/services/Hotspot.svg             |    1 +
+ assets/img/mtf/services/Menu.svg                |    1 +
+ assets/img/mtf/services/Pool Ladder.svg         |    1 +
+ assets/img/mtf/services/Reception.svg           |    1 +
+ assets/img/mtf/services/Refrigerator.svg        |    1 +
+ assets/img/mtf/services/Spa-1.svg               |    1 +
+ assets/img/mtf/services/Spa-2.svg               |    1 +
+ assets/img/mtf/services/Street-Sign 1.svg       |    1 +
+ assets/img/mtf/services/Theatre.svg             |    1 +
+ assets/img/mtf/services/Toilet.svg              |    1 +
+ assets/img/mtf/services/Wifi 1.svg              |    1 +
+ assets/img/mtf/services/Wifi 2.svg              |    1 +
+ assets/img/mtf/services/Wifi Tethering.svg      |    1 +
+ assets/img/mtf/services/Wine List.svg           |    1 +
+ assets/img/mtf/services/Yin-Yang.svg            |    1 +
+ assets/img/mtf/ship.png                         |  Bin 0 -> 17580 bytes
+ assets/img/mtf/ships/139.jpg                    |  Bin 0 -> 165961 bytes
+ assets/img/mtf/ships/139.webp                   |  Bin 0 -> 106918 bytes
+ assets/img/mtf/ships/139/1.jpg                  |  Bin 0 -> 333334 bytes
+ assets/img/mtf/ships/139/1.webp                 |  Bin 0 -> 269804 bytes
+ assets/img/mtf/ships/139/1920x960.jpg           |  Bin 0 -> 290673 bytes
+ assets/img/mtf/ships/139/1920x960.webp          |  Bin 0 -> 268096 bytes
+ assets/img/mtf/ships/139/deckplan.png           |  Bin 0 -> 49516 bytes
+ assets/img/mtf/ships/139/deckplan.webp          |  Bin 0 -> 32926 bytes
+ assets/img/mtf/ships/14.jpg                     |  Bin 0 -> 85029 bytes
+ assets/img/mtf/ships/14.webp                    |  Bin 0 -> 64938 bytes
+ assets/img/mtf/ships/14/1.jpg                   |  Bin 0 -> 313851 bytes
+ assets/img/mtf/ships/14/1.webp                  |  Bin 0 -> 252942 bytes
+ assets/img/mtf/ships/14/1920x960.jpg            |  Bin 0 -> 281173 bytes
+ assets/img/mtf/ships/14/1920x960.webp           |  Bin 0 -> 265478 bytes
+ assets/img/mtf/ships/14/deckplan.png            |  Bin 0 -> 58059 bytes
+ assets/img/mtf/ships/14/deckplan.webp           |  Bin 0 -> 38518 bytes
+ assets/img/mtf/ships/150.jpg                    |  Bin 0 -> 70880 bytes
+ assets/img/mtf/ships/150.webp                   |  Bin 0 -> 48578 bytes
+ assets/img/mtf/ships/150/1.jpg                  |  Bin 0 -> 248059 bytes
+ assets/img/mtf/ships/150/1.webp                 |  Bin 0 -> 180410 bytes
+ assets/img/mtf/ships/150/1920x960.jpg           |  Bin 0 -> 204685 bytes
+ assets/img/mtf/ships/150/1920x960.webp          |  Bin 0 -> 192980 bytes
+ assets/img/mtf/ships/150/deckplan.png           |  Bin 0 -> 73033 bytes
+ assets/img/mtf/ships/150/deckplan.webp          |  Bin 0 -> 33674 bytes
+ assets/img/mtf/ships/19.jpg                     |  Bin 0 -> 99967 bytes
+ assets/img/mtf/ships/19.webp                    |  Bin 0 -> 78658 bytes
+ assets/img/mtf/ships/19/1.jpg                   |  Bin 0 -> 348931 bytes
+ assets/img/mtf/ships/19/1.webp                  |  Bin 0 -> 274606 bytes
+ assets/img/mtf/ships/19/1920x960.jpg            |  Bin 0 -> 284937 bytes
+ assets/img/mtf/ships/19/1920x960.webp           |  Bin 0 -> 257468 bytes
+ assets/img/mtf/ships/19/deckplan.png            |  Bin 0 -> 59020 bytes
+ assets/img/mtf/ships/19/deckplan.webp           |  Bin 0 -> 45558 bytes
+ assets/img/mtf/ships/1920_cut/139.jpg           |  Bin 0 -> 152427 bytes
+ assets/img/mtf/ships/1920_cut/139.webp          |  Bin 0 -> 121396 bytes
+ assets/img/mtf/ships/1920_cut/14.jpg            |  Bin 0 -> 129651 bytes
+ assets/img/mtf/ships/1920_cut/14.webp           |  Bin 0 -> 93220 bytes
+ assets/img/mtf/ships/1920_cut/150.jpg           |  Bin 0 -> 117505 bytes
+ assets/img/mtf/ships/1920_cut/150.webp          |  Bin 0 -> 77886 bytes
+ assets/img/mtf/ships/1920_cut/19.jpg            |  Bin 0 -> 134773 bytes
+ assets/img/mtf/ships/1920_cut/19.webp           |  Bin 0 -> 98726 bytes
+ assets/img/mtf/ships/1920_cut/198.jpg           |  Bin 0 -> 145254 bytes
+ assets/img/mtf/ships/1920_cut/198.webp          |  Bin 0 -> 95156 bytes
+ assets/img/mtf/ships/1920_cut/200.jpg           |  Bin 0 -> 141998 bytes
+ assets/img/mtf/ships/1920_cut/200.webp          |  Bin 0 -> 99654 bytes
+ assets/img/mtf/ships/1920_cut/206.jpg           |  Bin 0 -> 123012 bytes
+ assets/img/mtf/ships/1920_cut/206.webp          |  Bin 0 -> 87452 bytes
+ assets/img/mtf/ships/1920_cut/207.jpg           |  Bin 0 -> 134185 bytes
+ assets/img/mtf/ships/1920_cut/207.webp          |  Bin 0 -> 93294 bytes
+ assets/img/mtf/ships/1920_cut/247.jpg           |  Bin 0 -> 119259 bytes
+ assets/img/mtf/ships/1920_cut/247.webp          |  Bin 0 -> 81714 bytes
+ assets/img/mtf/ships/1920_cut/36.jpg            |  Bin 0 -> 134710 bytes
+ assets/img/mtf/ships/1920_cut/36.webp           |  Bin 0 -> 99400 bytes
+ assets/img/mtf/ships/1920_cut/5.jpg             |  Bin 0 -> 143479 bytes
+ assets/img/mtf/ships/1920_cut/5.webp            |  Bin 0 -> 111372 bytes
+ assets/img/mtf/ships/1920_cut/72.jpg            |  Bin 0 -> 161835 bytes
+ assets/img/mtf/ships/1920_cut/72.webp           |  Bin 0 -> 130924 bytes
+ assets/img/mtf/ships/1920_cut/92.jpg            |  Bin 0 -> 134676 bytes
+ assets/img/mtf/ships/1920_cut/92.webp           |  Bin 0 -> 107614 bytes
+ assets/img/mtf/ships/1920x1080/139.jpg          |  Bin 0 -> 290845 bytes
+ assets/img/mtf/ships/1920x1080/139.webp         |  Bin 0 -> 254288 bytes
+ assets/img/mtf/ships/1920x1080/14.jpg           |  Bin 0 -> 274770 bytes
+ assets/img/mtf/ships/1920x1080/14.webp          |  Bin 0 -> 236850 bytes
+ assets/img/mtf/ships/1920x1080/150.jpg          |  Bin 0 -> 207937 bytes
+ assets/img/mtf/ships/1920x1080/150.webp         |  Bin 0 -> 162126 bytes
+ assets/img/mtf/ships/1920x1080/19.jpg           |  Bin 0 -> 252212 bytes
+ assets/img/mtf/ships/1920x1080/19.webp          |  Bin 0 -> 214644 bytes
+ assets/img/mtf/ships/1920x1080/198.jpg          |  Bin 0 -> 191692 bytes
+ assets/img/mtf/ships/1920x1080/198.webp         |  Bin 0 -> 145608 bytes
+ assets/img/mtf/ships/1920x1080/200.jpg          |  Bin 0 -> 245107 bytes
+ assets/img/mtf/ships/1920x1080/200.webp         |  Bin 0 -> 200304 bytes
+ assets/img/mtf/ships/1920x1080/206.jpg          |  Bin 0 -> 222816 bytes
+ assets/img/mtf/ships/1920x1080/206.webp         |  Bin 0 -> 183688 bytes
+ assets/img/mtf/ships/1920x1080/207.jpg          |  Bin 0 -> 225568 bytes
+ assets/img/mtf/ships/1920x1080/207.webp         |  Bin 0 -> 192432 bytes
+ assets/img/mtf/ships/1920x1080/247.jpg          |  Bin 0 -> 228152 bytes
+ assets/img/mtf/ships/1920x1080/247.webp         |  Bin 0 -> 182378 bytes
+ assets/img/mtf/ships/1920x1080/36.jpg           |  Bin 0 -> 240860 bytes
+ assets/img/mtf/ships/1920x1080/36.webp          |  Bin 0 -> 192422 bytes
+ assets/img/mtf/ships/1920x1080/5.jpg            |  Bin 0 -> 281513 bytes
+ assets/img/mtf/ships/1920x1080/5.webp           |  Bin 0 -> 239118 bytes
+ assets/img/mtf/ships/1920x1080/72.jpg           |  Bin 0 -> 298109 bytes
+ assets/img/mtf/ships/1920x1080/72.webp          |  Bin 0 -> 268950 bytes
+ assets/img/mtf/ships/1920x1080/92.jpg           |  Bin 0 -> 247048 bytes
+ assets/img/mtf/ships/1920x1080/92.webp          |  Bin 0 -> 214608 bytes
+ assets/img/mtf/ships/198.jpg                    |  Bin 0 -> 71238 bytes
+ assets/img/mtf/ships/198.webp                   |  Bin 0 -> 51654 bytes
+ assets/img/mtf/ships/198/1.jpg                  |  Bin 0 -> 267728 bytes
+ assets/img/mtf/ships/198/1.webp                 |  Bin 0 -> 209576 bytes
+ assets/img/mtf/ships/198/1920x960.jpg           |  Bin 0 -> 174763 bytes
+ assets/img/mtf/ships/198/1920x960.webp          |  Bin 0 -> 141364 bytes
+ assets/img/mtf/ships/198/deckplan.png           |  Bin 0 -> 50847 bytes
+ assets/img/mtf/ships/198/deckplan.webp          |  Bin 0 -> 46908 bytes
+ assets/img/mtf/ships/200.jpg                    |  Bin 0 -> 84185 bytes
+ assets/img/mtf/ships/200.webp                   |  Bin 0 -> 63834 bytes
+ assets/img/mtf/ships/200/1.jpg                  |  Bin 0 -> 295328 bytes
+ assets/img/mtf/ships/200/1.webp                 |  Bin 0 -> 219242 bytes
+ assets/img/mtf/ships/200/1920x960.jpg           |  Bin 0 -> 221621 bytes
+ assets/img/mtf/ships/200/1920x960.webp          |  Bin 0 -> 191826 bytes
+ assets/img/mtf/ships/200/deckplan.jpg           |  Bin 0 -> 223910 bytes
+ assets/img/mtf/ships/200/deckplan.png           |  Bin 0 -> 357230 bytes
+ assets/img/mtf/ships/200/deckplan.webp          |  Bin 0 -> 88212 bytes
+ assets/img/mtf/ships/206.jpg                    |  Bin 0 -> 72391 bytes
+ assets/img/mtf/ships/206.webp                   |  Bin 0 -> 52376 bytes
+ assets/img/mtf/ships/206/1.jpg                  |  Bin 0 -> 262727 bytes
+ assets/img/mtf/ships/206/1.webp                 |  Bin 0 -> 200610 bytes
+ assets/img/mtf/ships/206/1920x960.jpg           |  Bin 0 -> 203312 bytes
+ assets/img/mtf/ships/206/1920x960.webp          |  Bin 0 -> 179316 bytes
+ assets/img/mtf/ships/206/deckplan.png           |  Bin 0 -> 61702 bytes
+ assets/img/mtf/ships/206/deckplan.webp          |  Bin 0 -> 45470 bytes
+ assets/img/mtf/ships/207.jpg                    |  Bin 0 -> 167186 bytes
+ assets/img/mtf/ships/207.webp                   |  Bin 0 -> 107926 bytes
+ assets/img/mtf/ships/207/1.jpg                  |  Bin 0 -> 273657 bytes
+ assets/img/mtf/ships/207/1.webp                 |  Bin 0 -> 202292 bytes
+ assets/img/mtf/ships/207/1920x960.jpg           |  Bin 0 -> 194370 bytes
+ assets/img/mtf/ships/207/1920x960.webp          |  Bin 0 -> 187506 bytes
+ assets/img/mtf/ships/207/deckplan.png           |  Bin 0 -> 44910 bytes
+ assets/img/mtf/ships/207/deckplan.webp          |  Bin 0 -> 30362 bytes
+ assets/img/mtf/ships/247.jpg                    |  Bin 0 -> 72786 bytes
+ assets/img/mtf/ships/247.webp                   |  Bin 0 -> 49594 bytes
+ assets/img/mtf/ships/247/1.jpg                  |  Bin 0 -> 274902 bytes
+ assets/img/mtf/ships/247/1.webp                 |  Bin 0 -> 207124 bytes
+ assets/img/mtf/ships/247/1920x960.jpg           |  Bin 0 -> 198996 bytes
+ assets/img/mtf/ships/247/1920x960.webp          |  Bin 0 -> 166580 bytes
+ assets/img/mtf/ships/247/deckplan.png           |  Bin 0 -> 50939 bytes
+ assets/img/mtf/ships/247/deckplan.webp          |  Bin 0 -> 43766 bytes
+ assets/img/mtf/ships/36.jpg                     |  Bin 0 -> 86156 bytes
+ assets/img/mtf/ships/36.webp                    |  Bin 0 -> 64816 bytes
+ assets/img/mtf/ships/36/1.jpg                   |  Bin 0 -> 295528 bytes
+ assets/img/mtf/ships/36/1.webp                  |  Bin 0 -> 221698 bytes
+ assets/img/mtf/ships/36/1920x960.jpg            |  Bin 0 -> 226368 bytes
+ assets/img/mtf/ships/36/1920x960.webp           |  Bin 0 -> 192206 bytes
+ assets/img/mtf/ships/36/deckplan.png            |  Bin 0 -> 56340 bytes
+ assets/img/mtf/ships/36/deckplan.webp           |  Bin 0 -> 39174 bytes
+ assets/img/mtf/ships/5.jpg                      |  Bin 0 -> 94455 bytes
+ assets/img/mtf/ships/5.webp                     |  Bin 0 -> 76044 bytes
+ assets/img/mtf/ships/5/1.jpg                    |  Bin 0 -> 336363 bytes
+ assets/img/mtf/ships/5/1.webp                   |  Bin 0 -> 267454 bytes
+ assets/img/mtf/ships/5/1920x960.jpg             |  Bin 0 -> 271364 bytes
+ assets/img/mtf/ships/5/1920x960.webp            |  Bin 0 -> 243834 bytes
+ assets/img/mtf/ships/5/deckplan.png             |  Bin 0 -> 58294 bytes
+ assets/img/mtf/ships/5/deckplan.webp            |  Bin 0 -> 26426 bytes
+ assets/img/mtf/ships/72.jpg                     |  Bin 0 -> 93892 bytes
+ assets/img/mtf/ships/72.webp                    |  Bin 0 -> 76134 bytes
+ assets/img/mtf/ships/72/1.jpg                   |  Bin 0 -> 357475 bytes
+ assets/img/mtf/ships/72/1.webp                  |  Bin 0 -> 294348 bytes
+ assets/img/mtf/ships/72/1920x960.jpg            |  Bin 0 -> 287423 bytes
+ assets/img/mtf/ships/72/1920x960.webp           |  Bin 0 -> 277210 bytes
+ assets/img/mtf/ships/72/deckplan.png            |  Bin 0 -> 51129 bytes
+ assets/img/mtf/ships/72/deckplan.svg            |    1 +
+ assets/img/mtf/ships/72/deckplan.webp           |  Bin 0 -> 46782 bytes
+ assets/img/mtf/ships/91.jpg                     |  Bin 0 -> 68903 bytes
+ assets/img/mtf/ships/91.webp                    |  Bin 0 -> 31240 bytes
+ assets/img/mtf/ships/91/1.jpg                   |  Bin 0 -> 51043 bytes
+ assets/img/mtf/ships/91/111.jpg                 |  Bin 0 -> 100028 bytes
+ assets/img/mtf/ships/91/91.jpg                  |  Bin 0 -> 51043 bytes
+ assets/img/mtf/ships/91/91.webp                 |  Bin 0 -> 35660 bytes
+ assets/img/mtf/ships/91/deckplan.png            |  Bin 0 -> 61020 bytes
+ assets/img/mtf/ships/91/deckplan.webp           |  Bin 0 -> 46922 bytes
+ assets/img/mtf/ships/92.jpg                     |  Bin 0 -> 81933 bytes
+ assets/img/mtf/ships/92.webp                    |  Bin 0 -> 63466 bytes
+ assets/img/mtf/ships/92/1.jpg                   |  Bin 0 -> 304453 bytes
+ assets/img/mtf/ships/92/1.webp                  |  Bin 0 -> 238000 bytes
+ assets/img/mtf/ships/92/1920x960.jpg            |  Bin 0 -> 233440 bytes
+ assets/img/mtf/ships/92/1920x960.webp           |  Bin 0 -> 213266 bytes
+ assets/img/mtf/ships/92/deckplan.png            |  Bin 0 -> 52329 bytes
+ assets/img/mtf/ships/92/deckplan.webp           |  Bin 0 -> 47936 bytes
+ assets/img/mtf/ships/blank.jpg                  |  Bin 0 -> 2827 bytes
+ assets/img/mtf/ships/small/karenina.jpg         |  Bin 0 -> 74553 bytes
+ assets/img/mtf/ships/small/karenina.webp        |  Bin 0 -> 59486 bytes
+ assets/img/mtf/ships/small/kolesov.jpg          |  Bin 0 -> 89167 bytes
+ assets/img/mtf/ships/small/kolesov.webp         |  Bin 0 -> 78402 bytes
+ assets/img/mtf/ships/small/mir.jpg              |  Bin 0 -> 75771 bytes
+ assets/img/mtf/ships/small/mir.webp             |  Bin 0 -> 64096 bytes
+ assets/img/mtf/ships/small/petrovich.jpg        |  Bin 0 -> 74764 bytes
+ assets/img/mtf/ships/small/petrovich.webp       |  Bin 0 -> 59288 bytes
+ assets/img/mtf/ships/small/port-artur.jpg       |  Bin 0 -> 100772 bytes
+ assets/img/mtf/ships/small/port-artur.webp      |  Bin 0 -> 92256 bytes
+ assets/img/mtf/ships/small/soyuz.jpg            |  Bin 0 -> 110325 bytes
+ assets/img/mtf/ships/small/soyuz.webp           |  Bin 0 -> 82522 bytes
+ assets/img/mtf/ships/small/trotter.jpg          |  Bin 0 -> 94505 bytes
+ assets/img/mtf/ships/small/trotter.webp         |  Bin 0 -> 83766 bytes
+ assets/img/mtf/ships/small/yury.jpg             |  Bin 0 -> 90499 bytes
+ assets/img/mtf/ships/small/yury.webp            |  Bin 0 -> 57260 bytes
+ assets/img/mtf/slider/main/constructor.jpg      |  Bin 0 -> 160981 bytes
+ assets/img/mtf/slider/main/constructor.webp     |  Bin 0 -> 76942 bytes
+ assets/img/mtf/slider/main/constructor_cut.jpg  |  Bin 0 -> 78276 bytes
+ assets/img/mtf/slider/main/constructor_cut.webp |  Bin 0 -> 40652 bytes
+ assets/img/mtf/slider/main/gogol.jpg            |  Bin 0 -> 124370 bytes
+ assets/img/mtf/slider/main/gogol.webp           |  Bin 0 -> 67740 bytes
+ assets/img/mtf/slider/main/gogol_cut.jpg        |  Bin 0 -> 70280 bytes
+ assets/img/mtf/slider/main/gogol_cut.webp       |  Bin 0 -> 40802 bytes
+ assets/img/mtf/slider/main/hram.jpg             |  Bin 0 -> 146095 bytes
+ assets/img/mtf/slider/main/hram.webp            |  Bin 0 -> 92314 bytes
+ assets/img/mtf/slider/main/hram_cut.jpg         |  Bin 0 -> 92657 bytes
+ assets/img/mtf/slider/main/hram_cut.webp        |  Bin 0 -> 60846 bytes
+ assets/img/mtf/slider/main/mir2.jpg             |  Bin 0 -> 389223 bytes
+ assets/img/mtf/slider/main/onedaytrip.jpg       |  Bin 0 -> 110566 bytes
+ assets/img/mtf/slider/main/onedaytrip.webp      |  Bin 0 -> 80790 bytes
+ assets/img/mtf/slider/main/onedaytrip_cut.jpg   |  Bin 0 -> 77203 bytes
+ assets/img/mtf/slider/main/onedaytrip_cut.webp  |  Bin 0 -> 60180 bytes
+ assets/img/mtf/svg/Coins-3.svg                  |   69 +
+ assets/img/mtf/svg/Done-Bookmark.svg            |   29 +
+ assets/img/mtf/svg/cd-top-arrow.svg             |    7 +
+ assets/img/mtf/svg/print-solid.svg              |    1 +
+ assets/img/mtf/svg/ship-solid.svg               |    1 +
+ assets/img/mtf/svg/shopping-cart-solid.svg      |    1 +
+ assets/img/mtf/svg/times-solid.svg              |    1 +
+ assets/img/mtf/svg/trophy-solid.svg             |    1 +
+ assets/img/mtf/top/america.jpg                  |  Bin 0 -> 69976 bytes
+ assets/img/mtf/top/asia.jpg                     |  Bin 0 -> 34595 bytes
+ assets/img/mtf/top/australia.jpg                |  Bin 0 -> 49480 bytes
+ assets/img/mtf/top/china.jpg                    |  Bin 0 -> 24458 bytes
+ assets/img/mtf/top/europe.jpg                   |  Bin 0 -> 57242 bytes
+ assets/img/mtf/top/excursions.jpg               |  Bin 0 -> 20441 bytes
+ assets/img/mtf/top/fedoskino.jpg                |  Bin 0 -> 161289 bytes
+ assets/img/mtf/top/kazan.jpg                    |  Bin 0 -> 119929 bytes
+ assets/img/mtf/top/konstruktor.jpg              |  Bin 0 -> 46408 bytes
+ assets/img/mtf/top/lowcost.jpg                  |  Bin 0 -> 80332 bytes
+ assets/img/mtf/top/lowcoster.jpg                |  Bin 0 -> 63833 bytes
+ assets/img/mtf/top/maldivy.jpg                  |  Bin 0 -> 52117 bytes
+ assets/img/mtf/top/microphones.jpg              |  Bin 0 -> 31713 bytes
+ assets/img/mtf/top/mir.jpg                      |  Bin 0 -> 61783 bytes
+ assets/img/mtf/top/mir3.jpg                     |  Bin 0 -> 87934 bytes
+ assets/img/mtf/top/nnovgorod.jpg                |  Bin 0 -> 65274 bytes
+ assets/img/mtf/top/oceania.jpg                  |  Bin 0 -> 46834 bytes
+ assets/img/mtf/top/oka.jpg                      |  Bin 0 -> 118796 bytes
+ assets/img/mtf/top/oka.webp                     |  Bin 0 -> 88494 bytes
+ assets/img/mtf/top/online.jpg                   |  Bin 0 -> 54895 bytes
+ assets/img/mtf/top/ostrova.jpg                  |  Bin 0 -> 126857 bytes
+ assets/img/mtf/top/ostrova.webp                 |  Bin 0 -> 90982 bytes
+ assets/img/mtf/top/pr1.jpg                      |  Bin 0 -> 143254 bytes
+ assets/img/mtf/top/pr2.jpg                      |  Bin 0 -> 64743 bytes
+ assets/img/mtf/top/pr3.jpg                      |  Bin 0 -> 137753 bytes
+ assets/img/mtf/top/pr4.jpg                      |  Bin 0 -> 90018 bytes
+ assets/img/mtf/top/soyuz.jpg                    |  Bin 0 -> 62818 bytes
+ assets/img/mtf/top/stars.jpg                    |  Bin 0 -> 56924 bytes
+ assets/img/mtf/top/trotter.jpg                  |  Bin 0 -> 70556 bytes
+ assets/img/mtf/top/turky.jpg                    |  Bin 0 -> 59196 bytes
+ assets/img/mtf/top/vimpel4.png                  |  Bin 0 -> 219058 bytes
+ assets/img/mtf/top/vimpel5.png                  |  Bin 0 -> 284381 bytes
+ assets/img/mtf/top/vympel2014.png               |  Bin 0 -> 248847 bytes
+ assets/img/mtf/top/vympel2016.png               |  Bin 0 -> 224173 bytes
+ assets/img/mtf/top/vympel2017.png               |  Bin 0 -> 228446 bytes
+ assets/img/mtf/top/vympel2018.png               |  Bin 0 -> 216414 bytes
+ assets/img/mtf/top/vympel2019.png               |  Bin 0 -> 235286 bytes
+ assets/img/mtf/top/yuri.jpg                     |  Bin 0 -> 72840 bytes
+ assets/img/mtf/top/zhostovo.jpg                 |  Bin 0 -> 70280 bytes
+ assets/js/details.js                            |  142 ++-
+ assets/js/moment-timezone-with-data.js          | 1546 +++++++++++++++++++++++
+ assets/js/moment-timezone.min.js                |    1 +
+ 365 files changed, 1894 insertions(+), 19 deletions(-)
+ create mode 100644 assets/img/mtf/Esenin_02_1043x522.jpg
+ create mode 100644 assets/img/mtf/Esenin_02_1043x522.webp
+ create mode 100644 assets/img/mtf/Esenin_02_1920x960.jpg
+ create mode 100644 assets/img/mtf/Esenin_02_1920x960.webp
+ create mode 100644 assets/img/mtf/cabin.jpg
+ create mode 100644 assets/img/mtf/cabin_default.jpg
+ create mode 100644 assets/img/mtf/deckplan.png
+ create mode 100644 assets/img/mtf/esenin.jpg
+ create mode 100644 assets/img/mtf/esenin.webp
+ create mode 100644 assets/img/mtf/globe-hero.jpg
+ create mode 100644 assets/img/mtf/globe-hero.webp
+ create mode 100644 assets/img/mtf/grin.jpg
+ create mode 100644 assets/img/mtf/grin.webp
+ create mode 100644 assets/img/mtf/header-globus.jpg
+ create mode 100644 assets/img/mtf/header-globus.webp
+ create mode 100644 assets/img/mtf/logo360.jpg
+ create mode 100644 assets/img/mtf/marker-ship.png
+ create mode 100644 assets/img/mtf/marker.png
+ create mode 100644 assets/img/mtf/ms_schema.png
+ create mode 100644 assets/img/mtf/no-photo.jpg
+ create mode 100644 assets/img/mtf/no-photo.webp
+ create mode 100644 assets/img/mtf/point.jpg
+ create mode 100644 assets/img/mtf/services/1.svg
+ create mode 100644 assets/img/mtf/services/10.svg
+ create mode 100644 assets/img/mtf/services/1000.svg
+ create mode 100644 assets/img/mtf/services/11.svg
+ create mode 100644 assets/img/mtf/services/12.svg
+ create mode 100644 assets/img/mtf/services/14.svg
+ create mode 100644 assets/img/mtf/services/15.svg
+ create mode 100644 assets/img/mtf/services/16.svg
+ create mode 100644 assets/img/mtf/services/17.svg
+ create mode 100644 assets/img/mtf/services/18.svg
+ create mode 100644 assets/img/mtf/services/19.svg
+ create mode 100644 assets/img/mtf/services/2.svg
+ create mode 100644 assets/img/mtf/services/20.svg
+ create mode 100644 assets/img/mtf/services/21.svg
+ create mode 100644 assets/img/mtf/services/22.svg
+ create mode 100644 assets/img/mtf/services/23.svg
+ create mode 100644 assets/img/mtf/services/24.svg
+ create mode 100644 assets/img/mtf/services/25.svg
+ create mode 100644 assets/img/mtf/services/26.svg
+ create mode 100644 assets/img/mtf/services/27.svg
+ create mode 100644 assets/img/mtf/services/28.svg
+ create mode 100644 assets/img/mtf/services/29.svg
+ create mode 100644 assets/img/mtf/services/3.svg
+ create mode 100644 assets/img/mtf/services/30.svg
+ create mode 100644 assets/img/mtf/services/31.svg
+ create mode 100644 assets/img/mtf/services/32.svg
+ create mode 100644 assets/img/mtf/services/33.svg
+ create mode 100644 assets/img/mtf/services/333.svg
+ create mode 100644 assets/img/mtf/services/34.svg
+ create mode 100644 assets/img/mtf/services/35.svg
+ create mode 100644 assets/img/mtf/services/36.svg
+ create mode 100644 assets/img/mtf/services/37.svg
+ create mode 100644 assets/img/mtf/services/38.svg
+ create mode 100644 assets/img/mtf/services/39.svg
+ create mode 100644 assets/img/mtf/services/4.svg
+ create mode 100644 assets/img/mtf/services/40.svg
+ create mode 100644 assets/img/mtf/services/41.svg
+ create mode 100644 assets/img/mtf/services/44.svg
+ create mode 100644 assets/img/mtf/services/45.svg
+ create mode 100644 assets/img/mtf/services/46.svg
+ create mode 100644 assets/img/mtf/services/47.svg
+ create mode 100644 assets/img/mtf/services/470.svg
+ create mode 100644 assets/img/mtf/services/4700.svg
+ create mode 100644 assets/img/mtf/services/48.svg
+ create mode 100644 assets/img/mtf/services/49.svg
+ create mode 100644 assets/img/mtf/services/5-Star hotel 2.svg
+ create mode 100644 assets/img/mtf/services/5.svg
+ create mode 100644 assets/img/mtf/services/50.svg
+ create mode 100644 assets/img/mtf/services/51.svg
+ create mode 100644 assets/img/mtf/services/52.svg
+ create mode 100644 assets/img/mtf/services/53.svg
+ create mode 100644 assets/img/mtf/services/54.svg
+ create mode 100644 assets/img/mtf/services/55.svg
+ create mode 100644 assets/img/mtf/services/56.svg
+ create mode 100644 assets/img/mtf/services/57.svg
+ create mode 100644 assets/img/mtf/services/58.svg
+ create mode 100644 assets/img/mtf/services/59.svg
+ create mode 100644 assets/img/mtf/services/6.svg
+ create mode 100644 assets/img/mtf/services/7.svg
+ create mode 100644 assets/img/mtf/services/8.svg
+ create mode 100644 assets/img/mtf/services/9.svg
+ create mode 100644 assets/img/mtf/services/Air-Conditioner.svg
+ create mode 100644 assets/img/mtf/services/Balloons.svg
+ create mode 100644 assets/img/mtf/services/Baloon.svg
+ create mode 100644 assets/img/mtf/services/Buddybuilding.svg
+ create mode 100644 assets/img/mtf/services/Captin Hat.svg
+ create mode 100644 assets/img/mtf/services/Desk.svg
+ create mode 100644 assets/img/mtf/services/Elevator.svg
+ create mode 100644 assets/img/mtf/services/First-ad.svg
+ create mode 100644 assets/img/mtf/services/Game-Console 2.svg
+ create mode 100644 assets/img/mtf/services/Guitar-Head 2.svg
+ create mode 100644 assets/img/mtf/services/Hot Drink 1.svg
+ create mode 100644 assets/img/mtf/services/Hot Drink 2.svg
+ create mode 100644 assets/img/mtf/services/Hotspot.svg
+ create mode 100644 assets/img/mtf/services/Menu.svg
+ create mode 100644 assets/img/mtf/services/Pool Ladder.svg
+ create mode 100644 assets/img/mtf/services/Reception.svg
+ create mode 100644 assets/img/mtf/services/Refrigerator.svg
+ create mode 100644 assets/img/mtf/services/Spa-1.svg
+ create mode 100644 assets/img/mtf/services/Spa-2.svg
+ create mode 100644 assets/img/mtf/services/Street-Sign 1.svg
+ create mode 100644 assets/img/mtf/services/Theatre.svg
+ create mode 100644 assets/img/mtf/services/Toilet.svg
+ create mode 100644 assets/img/mtf/services/Wifi 1.svg
+ create mode 100644 assets/img/mtf/services/Wifi 2.svg
+ create mode 100644 assets/img/mtf/services/Wifi Tethering.svg
+ create mode 100644 assets/img/mtf/services/Wine List.svg
+ create mode 100644 assets/img/mtf/services/Yin-Yang.svg
+ create mode 100644 assets/img/mtf/ship.png
+ create mode 100644 assets/img/mtf/ships/139.jpg
+ create mode 100644 assets/img/mtf/ships/139.webp
+ create mode 100644 assets/img/mtf/ships/139/1.jpg
+ create mode 100644 assets/img/mtf/ships/139/1.webp
+ create mode 100644 assets/img/mtf/ships/139/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/139/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/139/deckplan.png
+ create mode 100644 assets/img/mtf/ships/139/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/14.jpg
+ create mode 100644 assets/img/mtf/ships/14.webp
+ create mode 100644 assets/img/mtf/ships/14/1.jpg
+ create mode 100644 assets/img/mtf/ships/14/1.webp
+ create mode 100644 assets/img/mtf/ships/14/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/14/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/14/deckplan.png
+ create mode 100644 assets/img/mtf/ships/14/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/150.jpg
+ create mode 100644 assets/img/mtf/ships/150.webp
+ create mode 100644 assets/img/mtf/ships/150/1.jpg
+ create mode 100644 assets/img/mtf/ships/150/1.webp
+ create mode 100644 assets/img/mtf/ships/150/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/150/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/150/deckplan.png
+ create mode 100644 assets/img/mtf/ships/150/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/19.jpg
+ create mode 100644 assets/img/mtf/ships/19.webp
+ create mode 100644 assets/img/mtf/ships/19/1.jpg
+ create mode 100644 assets/img/mtf/ships/19/1.webp
+ create mode 100644 assets/img/mtf/ships/19/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/19/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/19/deckplan.png
+ create mode 100644 assets/img/mtf/ships/19/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/139.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/139.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/14.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/14.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/150.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/150.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/19.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/19.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/198.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/198.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/200.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/200.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/206.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/206.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/207.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/207.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/247.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/247.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/36.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/36.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/5.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/5.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/72.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/72.webp
+ create mode 100644 assets/img/mtf/ships/1920_cut/92.jpg
+ create mode 100644 assets/img/mtf/ships/1920_cut/92.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/139.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/139.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/14.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/14.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/150.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/150.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/19.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/19.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/198.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/198.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/200.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/200.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/206.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/206.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/207.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/207.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/247.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/247.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/36.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/36.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/5.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/5.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/72.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/72.webp
+ create mode 100644 assets/img/mtf/ships/1920x1080/92.jpg
+ create mode 100644 assets/img/mtf/ships/1920x1080/92.webp
+ create mode 100644 assets/img/mtf/ships/198.jpg
+ create mode 100644 assets/img/mtf/ships/198.webp
+ create mode 100644 assets/img/mtf/ships/198/1.jpg
+ create mode 100644 assets/img/mtf/ships/198/1.webp
+ create mode 100644 assets/img/mtf/ships/198/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/198/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/198/deckplan.png
+ create mode 100644 assets/img/mtf/ships/198/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/200.jpg
+ create mode 100644 assets/img/mtf/ships/200.webp
+ create mode 100644 assets/img/mtf/ships/200/1.jpg
+ create mode 100644 assets/img/mtf/ships/200/1.webp
+ create mode 100644 assets/img/mtf/ships/200/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/200/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/200/deckplan.jpg
+ create mode 100644 assets/img/mtf/ships/200/deckplan.png
+ create mode 100644 assets/img/mtf/ships/200/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/206.jpg
+ create mode 100644 assets/img/mtf/ships/206.webp
+ create mode 100644 assets/img/mtf/ships/206/1.jpg
+ create mode 100644 assets/img/mtf/ships/206/1.webp
+ create mode 100644 assets/img/mtf/ships/206/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/206/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/206/deckplan.png
+ create mode 100644 assets/img/mtf/ships/206/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/207.jpg
+ create mode 100644 assets/img/mtf/ships/207.webp
+ create mode 100644 assets/img/mtf/ships/207/1.jpg
+ create mode 100644 assets/img/mtf/ships/207/1.webp
+ create mode 100644 assets/img/mtf/ships/207/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/207/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/207/deckplan.png
+ create mode 100644 assets/img/mtf/ships/207/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/247.jpg
+ create mode 100644 assets/img/mtf/ships/247.webp
+ create mode 100644 assets/img/mtf/ships/247/1.jpg
+ create mode 100644 assets/img/mtf/ships/247/1.webp
+ create mode 100644 assets/img/mtf/ships/247/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/247/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/247/deckplan.png
+ create mode 100644 assets/img/mtf/ships/247/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/36.jpg
+ create mode 100644 assets/img/mtf/ships/36.webp
+ create mode 100644 assets/img/mtf/ships/36/1.jpg
+ create mode 100644 assets/img/mtf/ships/36/1.webp
+ create mode 100644 assets/img/mtf/ships/36/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/36/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/36/deckplan.png
+ create mode 100644 assets/img/mtf/ships/36/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/5.jpg
+ create mode 100644 assets/img/mtf/ships/5.webp
+ create mode 100644 assets/img/mtf/ships/5/1.jpg
+ create mode 100644 assets/img/mtf/ships/5/1.webp
+ create mode 100644 assets/img/mtf/ships/5/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/5/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/5/deckplan.png
+ create mode 100644 assets/img/mtf/ships/5/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/72.jpg
+ create mode 100644 assets/img/mtf/ships/72.webp
+ create mode 100644 assets/img/mtf/ships/72/1.jpg
+ create mode 100644 assets/img/mtf/ships/72/1.webp
+ create mode 100644 assets/img/mtf/ships/72/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/72/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/72/deckplan.png
+ create mode 100644 assets/img/mtf/ships/72/deckplan.svg
+ create mode 100644 assets/img/mtf/ships/72/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/91.jpg
+ create mode 100644 assets/img/mtf/ships/91.webp
+ create mode 100644 assets/img/mtf/ships/91/1.jpg
+ create mode 100644 assets/img/mtf/ships/91/111.jpg
+ create mode 100644 assets/img/mtf/ships/91/91.jpg
+ create mode 100644 assets/img/mtf/ships/91/91.webp
+ create mode 100644 assets/img/mtf/ships/91/deckplan.png
+ create mode 100644 assets/img/mtf/ships/91/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/92.jpg
+ create mode 100644 assets/img/mtf/ships/92.webp
+ create mode 100644 assets/img/mtf/ships/92/1.jpg
+ create mode 100644 assets/img/mtf/ships/92/1.webp
+ create mode 100644 assets/img/mtf/ships/92/1920x960.jpg
+ create mode 100644 assets/img/mtf/ships/92/1920x960.webp
+ create mode 100644 assets/img/mtf/ships/92/deckplan.png
+ create mode 100644 assets/img/mtf/ships/92/deckplan.webp
+ create mode 100644 assets/img/mtf/ships/blank.jpg
+ create mode 100644 assets/img/mtf/ships/small/karenina.jpg
+ create mode 100644 assets/img/mtf/ships/small/karenina.webp
+ create mode 100644 assets/img/mtf/ships/small/kolesov.jpg
+ create mode 100644 assets/img/mtf/ships/small/kolesov.webp
+ create mode 100644 assets/img/mtf/ships/small/mir.jpg
+ create mode 100644 assets/img/mtf/ships/small/mir.webp
+ create mode 100644 assets/img/mtf/ships/small/petrovich.jpg
+ create mode 100644 assets/img/mtf/ships/small/petrovich.webp
+ create mode 100644 assets/img/mtf/ships/small/port-artur.jpg
+ create mode 100644 assets/img/mtf/ships/small/port-artur.webp
+ create mode 100644 assets/img/mtf/ships/small/soyuz.jpg
+ create mode 100644 assets/img/mtf/ships/small/soyuz.webp
+ create mode 100644 assets/img/mtf/ships/small/trotter.jpg
+ create mode 100644 assets/img/mtf/ships/small/trotter.webp
+ create mode 100644 assets/img/mtf/ships/small/yury.jpg
+ create mode 100644 assets/img/mtf/ships/small/yury.webp
+ create mode 100644 assets/img/mtf/slider/main/constructor.jpg
+ create mode 100644 assets/img/mtf/slider/main/constructor.webp
+ create mode 100644 assets/img/mtf/slider/main/constructor_cut.jpg
+ create mode 100644 assets/img/mtf/slider/main/constructor_cut.webp
+ create mode 100644 assets/img/mtf/slider/main/gogol.jpg
+ create mode 100644 assets/img/mtf/slider/main/gogol.webp
+ create mode 100644 assets/img/mtf/slider/main/gogol_cut.jpg
+ create mode 100644 assets/img/mtf/slider/main/gogol_cut.webp
+ create mode 100644 assets/img/mtf/slider/main/hram.jpg
+ create mode 100644 assets/img/mtf/slider/main/hram.webp
+ create mode 100644 assets/img/mtf/slider/main/hram_cut.jpg
+ create mode 100644 assets/img/mtf/slider/main/hram_cut.webp
+ create mode 100644 assets/img/mtf/slider/main/mir2.jpg
+ create mode 100644 assets/img/mtf/slider/main/onedaytrip.jpg
+ create mode 100644 assets/img/mtf/slider/main/onedaytrip.webp
+ create mode 100644 assets/img/mtf/slider/main/onedaytrip_cut.jpg
+ create mode 100644 assets/img/mtf/slider/main/onedaytrip_cut.webp
+ create mode 100644 assets/img/mtf/svg/Coins-3.svg
+ create mode 100644 assets/img/mtf/svg/Done-Bookmark.svg
+ create mode 100644 assets/img/mtf/svg/cd-top-arrow.svg
+ create mode 100644 assets/img/mtf/svg/print-solid.svg
+ create mode 100644 assets/img/mtf/svg/ship-solid.svg
+ create mode 100644 assets/img/mtf/svg/shopping-cart-solid.svg
+ create mode 100644 assets/img/mtf/svg/times-solid.svg
+ create mode 100644 assets/img/mtf/svg/trophy-solid.svg
+ create mode 100644 assets/img/mtf/top/america.jpg
+ create mode 100644 assets/img/mtf/top/asia.jpg
+ create mode 100644 assets/img/mtf/top/australia.jpg
+ create mode 100644 assets/img/mtf/top/china.jpg
+ create mode 100644 assets/img/mtf/top/europe.jpg
+ create mode 100644 assets/img/mtf/top/excursions.jpg
+ create mode 100644 assets/img/mtf/top/fedoskino.jpg
+ create mode 100644 assets/img/mtf/top/kazan.jpg
+ create mode 100644 assets/img/mtf/top/konstruktor.jpg
+ create mode 100644 assets/img/mtf/top/lowcost.jpg
+ create mode 100644 assets/img/mtf/top/lowcoster.jpg
+ create mode 100644 assets/img/mtf/top/maldivy.jpg
+ create mode 100644 assets/img/mtf/top/microphones.jpg
+ create mode 100644 assets/img/mtf/top/mir.jpg
+ create mode 100644 assets/img/mtf/top/mir3.jpg
+ create mode 100644 assets/img/mtf/top/nnovgorod.jpg
+ create mode 100644 assets/img/mtf/top/oceania.jpg
+ create mode 100644 assets/img/mtf/top/oka.jpg
+ create mode 100644 assets/img/mtf/top/oka.webp
+ create mode 100644 assets/img/mtf/top/online.jpg
+ create mode 100644 assets/img/mtf/top/ostrova.jpg
+ create mode 100644 assets/img/mtf/top/ostrova.webp
+ create mode 100644 assets/img/mtf/top/pr1.jpg
+ create mode 100644 assets/img/mtf/top/pr2.jpg
+ create mode 100644 assets/img/mtf/top/pr3.jpg
+ create mode 100644 assets/img/mtf/top/pr4.jpg
+ create mode 100644 assets/img/mtf/top/soyuz.jpg
+ create mode 100644 assets/img/mtf/top/stars.jpg
+ create mode 100644 assets/img/mtf/top/trotter.jpg
+ create mode 100644 assets/img/mtf/top/turky.jpg
+ create mode 100644 assets/img/mtf/top/vimpel4.png
+ create mode 100644 assets/img/mtf/top/vimpel5.png
+ create mode 100644 assets/img/mtf/top/vympel2014.png
+ create mode 100644 assets/img/mtf/top/vympel2016.png
+ create mode 100644 assets/img/mtf/top/vympel2017.png
+ create mode 100644 assets/img/mtf/top/vympel2018.png
+ create mode 100644 assets/img/mtf/top/vympel2019.png
+ create mode 100644 assets/img/mtf/top/yuri.jpg
+ create mode 100644 assets/img/mtf/top/zhostovo.jpg
+ create mode 100644 assets/js/moment-timezone-with-data.js
+ create mode 100644 assets/js/moment-timezone.min.js
