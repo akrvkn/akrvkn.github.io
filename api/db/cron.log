@@ -1,1 +1,6 @@
-Уже обновлено.
+Обновление b896b36ba..6bcd20edd
+Fast-forward
+ assets/css/style.css        |   2 +-
+ assets/images/header-ny.png | Bin 0 -> 153762 bytes
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 assets/images/header-ny.png
