@@ -1,4 +1,58 @@
-Обновление 8401defda..6017ad509
+Обновление 0332fd247..45eb21e23
 Fast-forward
- _pages/order.md | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+ _pages/bonus.md                    |   9 +++++----
+ api/db/api-import.php              |   2 +-
+ assets/img/vdh/andropov.jpg        | Bin 0 -> 225336 bytes
+ assets/img/vdh/belinsky.jpg        | Bin 0 -> 251540 bytes
+ assets/img/vdh/budyonny.jpg        | Bin 0 -> 312414 bytes
+ assets/img/vdh/chernyshevsky.jpg   | Bin 0 -> 273116 bytes
+ assets/img/vdh/chicherin.jpg       | Bin 0 -> 168216 bytes
+ assets/img/vdh/dzerzhinsky.jpg     | Bin 0 -> 280644 bytes
+ assets/img/vdh/fedin.jpg           | Bin 0 -> 272555 bytes
+ assets/img/vdh/frunze.jpg          | Bin 0 -> 257181 bytes
+ assets/img/vdh/gorky.jpg           | Bin 0 -> 138244 bytes
+ assets/img/vdh/korotkov.jpg        | Bin 0 -> 255370 bytes
+ assets/img/vdh/kronshtadt.jpg      | Bin 0 -> 242747 bytes
+ assets/img/vdh/kuchkin.jpg         | Bin 0 -> 309398 bytes
+ assets/img/vdh/lenin.jpg           | Bin 0 -> 91430 bytes
+ assets/img/vdh/mustai-karim.jpg    | Bin 0 -> 395895 bytes
+ assets/img/vdh/nnovgorod.jpg       | Bin 0 -> 237601 bytes
+ assets/img/vdh/pushkin.jpg         | Bin 0 -> 184335 bytes
+ assets/img/vdh/radishchev.jpg      | Bin 0 -> 278855 bytes
+ assets/img/vdh/rostropovich.jpg    | Bin 0 -> 325538 bytes
+ assets/img/vdh/russ.jpg            | Bin 0 -> 26551 bytes
+ assets/img/vdh/sankt-peterburg.jpg | Bin 0 -> 253516 bytes
+ assets/img/vdh/shashkov.jpg        | Bin 0 -> 278086 bytes
+ assets/img/vdh/simonov.jpg         | Bin 0 -> 266205 bytes
+ assets/img/vdh/sobolev.jpg         | Bin 0 -> 285655 bytes
+ assets/img/vdh/suvorov.jpg         | Bin 0 -> 277131 bytes
+ assets/img/vdh/tolstoy.jpg         | Bin 0 -> 268156 bytes
+ assets/img/vdh/zhukov.jpg          | Bin 0 -> 347398 bytes
+ assets/js/details.js               |   2 +-
+ 29 files changed, 7 insertions(+), 6 deletions(-)
+ create mode 100644 assets/img/vdh/andropov.jpg
+ create mode 100644 assets/img/vdh/belinsky.jpg
+ create mode 100644 assets/img/vdh/budyonny.jpg
+ create mode 100644 assets/img/vdh/chernyshevsky.jpg
+ create mode 100644 assets/img/vdh/chicherin.jpg
+ create mode 100644 assets/img/vdh/dzerzhinsky.jpg
+ create mode 100644 assets/img/vdh/fedin.jpg
+ create mode 100644 assets/img/vdh/frunze.jpg
+ create mode 100644 assets/img/vdh/gorky.jpg
+ create mode 100644 assets/img/vdh/korotkov.jpg
+ create mode 100644 assets/img/vdh/kronshtadt.jpg
+ create mode 100644 assets/img/vdh/kuchkin.jpg
+ create mode 100644 assets/img/vdh/lenin.jpg
+ create mode 100644 assets/img/vdh/mustai-karim.jpg
+ create mode 100644 assets/img/vdh/nnovgorod.jpg
+ create mode 100644 assets/img/vdh/pushkin.jpg
+ create mode 100644 assets/img/vdh/radishchev.jpg
+ create mode 100644 assets/img/vdh/rostropovich.jpg
+ create mode 100644 assets/img/vdh/russ.jpg
+ create mode 100644 assets/img/vdh/sankt-peterburg.jpg
+ create mode 100644 assets/img/vdh/shashkov.jpg
+ create mode 100644 assets/img/vdh/simonov.jpg
+ create mode 100644 assets/img/vdh/sobolev.jpg
+ create mode 100644 assets/img/vdh/suvorov.jpg
+ create mode 100644 assets/img/vdh/tolstoy.jpg
+ create mode 100644 assets/img/vdh/zhukov.jpg
