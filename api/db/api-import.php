@@ -248,7 +248,7 @@ foreach($vdh_cruises as $cruiseid=>$cruise){
 file_put_contents('vdhimages.json', json_encode($img));*/
 
 //Vodohod.com API v2
-
+//https://api.vodohod.com/json/v2/cruises.php?pauth=v2-ba9fab12d2c4b8d005645d04492a7af7
 $VDH_BASE = 'https://api.vodohod.com/json/v2/';
 $pauth = 'v2-ba9fab12d2c4b8d005645d04492a7af7';
 $vcruises = $VDH_BASE.'cruises.php?pauth='.$pauth;

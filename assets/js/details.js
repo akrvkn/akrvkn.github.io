@@ -553,7 +553,7 @@ moment.locale('ru');
                 .done(function (data) {
                     $('.shipname').html('<hr><h2>т/х "' + data[shipid]['name'] + '"</h2>');
                     $("input[name='ship']").val(data[shipid]['name']);
-                    $('.shipimg').html('<img src="https://vodohod.com/cruises/vodohod/'+ data[shipid]['code'] + '/' + data[shipid]['code'] + '-description-main.jpg" width="350" />');
+                    $('.shipimg').html('<img src="/assets/img/vdh/'+ data[shipid]['code'] + '.jpg" width="550" />');
                     $('.deckplan').html('<a href="' + data[shipid]['decks'] + '" data-lightbox="deckplan"><img src="' + data[shipid]['decks'] + '" width="350" /></a>');
                     $('.description').html( data[shipid]['description']);
                 });
