@@ -3,7 +3,7 @@ $executionStartTime = microtime(true);
 
 $sdir = dirname(__FILE__);
 system ( 'cd '.$sdir.'; git pull;' );
-
+$RESTAPI_TOKEN = '407c8c353a23a14d40479eb4e4290a8a6d32b06b';
 $API_BASE = 'https://api.infoflot.com/JSON/f438cedcb449037583a8f84d5f5a3a3ff34139ab/';
 $ships = $API_BASE.'Ships/';
 $cabins = $API_BASE.'Cabins/';
@@ -14,7 +14,7 @@ $tours_base = $API_BASE.'Tours/';
 $schemes = $API_BASE.'ShipsSchemes/';
 $excursions = $API_BASE.'Excursions/';
 //https://api.infoflot.com/JSON/f438cedcb449037583a8f84d5f5a3a3ff34139ab/Tours/5
-//https://restapi.infoflot.com/ships?key=f438cedcb449037583a8f84d5f5a3a3ff34139ab
+//https://restapi.infoflot.com/ships?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
 
 $pattern = '~(*UTF8)[\p{Cyrillic}]+~i';
 
