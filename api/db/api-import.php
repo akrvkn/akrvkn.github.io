@@ -15,6 +15,8 @@ $schemes = $API_BASE.'ShipsSchemes/';
 $excursions = $API_BASE.'Excursions/';
 //https://api.infoflot.com/JSON/f438cedcb449037583a8f84d5f5a3a3ff34139ab/Tours/5
 //https://restapi.infoflot.com/ships?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
+//https://restapi.infoflot.com/cruises?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b&ship=1&dateStartFrom=2021-04-15
+
 
 $pattern = '~(*UTF8)[\p{Cyrillic}]+~i';
 
@@ -59,6 +61,7 @@ foreach($mtf_ships_list->data as $key=>$mtf_ship){
 file_put_contents('mtfimages.json', json_encode($mtf_images));
 file_put_contents('mtfships.json', json_encode($mtf_names));
 
+//Infoflot ships
 $ships_list = json_decode(file_get_contents($ships), true);
 $filtered_ships = array();
 if($ships_list){
@@ -182,7 +185,6 @@ foreach($local_ships_list as $ship_id=>$ship_name){
 $counter = 0;
 $table = array();
 
-//$mtf_cruises = json_decode(file_get_contents('https://www.mosturflot.ru/api/ajax/?request=tours&loading=true'));
 $filterMtf = '&filter[ship-id][in][]=5&filter[ship-id][in][]=14&filter[ship-id][in][]=19&filter[ship-id][in][]=36&filter[ship-id][in][]=72&filter[ship-id][in][]=91&filter[ship-id][in][]=92&filter[ship-id][in][]=139&filter[ship-id][in][]=150&filter[ship-id][in][]=198&filter[ship-id][in][]=200&filter[ship-id][in][]=206&filter[ship-id][in][]=207&filter[ship-id][in][]=247';
 
 $mtf_cruises = json_decode(file_get_contents('https://api.mosturflot.ru/v3/rivercruises/tours?filter[start][gte]='.date("Y-m-d").'T00:00:00Z'.$filterMtf.'&per-page=1000'), true);
@@ -201,51 +203,6 @@ foreach($mtf_cruises['data'] as $key=>$val){
 
 	$counter++;
 }
-
-/**foreach($mtf_cruises->answer as $key=>$val){
-    $table[$counter]['company'] = 'mtf';
-    $table[$counter]['shipid'] = $val->shipid;
-	$table[$counter]['shipname'] = $val->shipname;
-	$table[$counter]['tourid'] = $val->tourid;
-	$table[$counter]['tourstart'] = $val->tourstart;
-	$table[$counter]['tourfinish'] = $val->tourfinish;
-	$table[$counter]['tourroute'] = $val->tourroute;
-	$table[$counter]['tourdays'] = $val->tourdays;
-	$table[$counter]['tourminprice'] = $val->tourminprice;
-	$table[$counter]['tourcabinsfree'] = $val->tourcabinsfree;
-
-	$counter++;
-    
-}*/
-
-
-/**$vdh_cruises = json_decode(file_get_contents('https://www.rech-tour.ru/api/v1/cruises'));
-
-$vdh = ['Пушкин', 'Горький', 'Симонов', 'Соболев', 'Радищев', 'Дзержинский', 'Жуков', 'Ростропович', 'Чичерин', 'Шашков', 'Федин', 'Толстой', 'Ленин', 'Чернышевский', 'Русь', 'Белинский', 'Петербург', 'Андропов', 'Кронштадт', 'Коротков', 'Новгород', 'Фрунзе', 'Будённый', 'Суворов', 'Кучкин'];
-
-$pattern = '/'.implode('|', $vdh).'/siU';
-$img = [];
-foreach($vdh_cruises as $cruiseid=>$cruise){
-    if(preg_match($pattern, $cruise->ship)&&$cruise->date_start > time()){
-    
-    $img[$cruise->ship] = $cruise->ship_photo_main;
-    
-    $table[$counter]['company'] = 'vdh';
-    $table[$counter]['shipid'] = $cruise->ship_id;
-    $table[$counter]['shipname'] = $cruise->ship;
-    $table[$counter]['tourid'] = $cruiseid;
-    $table[$counter]['tourstart'] = date('c', $cruise->date_start);
-    $table[$counter]['tourfinish'] = date('c', $cruise->date_stop);
-    $table[$counter]['tourroute'] = $cruise->route;
-    $table[$counter]['tourdays'] = (($cruise->date_stop - $cruise->date_start)/3600)/24;
-    $table[$counter]['tourminprice'] = '';
-    $table[$counter]['tourcabinsfree'] = '';
-
-    $counter++;
-   }
-}
-
-file_put_contents('vdhimages.json', json_encode($img));*/
 
 //Vodohod.com API v2
 //https://api.vodohod.com/json/v2/cruises.php?pauth=v2-ba9fab12d2c4b8d005645d04492a7af7
@@ -284,9 +241,6 @@ $vdh_cruises = file_get_contents($vcruises, false, $context);
 file_put_contents($vdh_dir.'/cruises.json', $vdh_cruises);
 
 $vdh_ships = json_decode($vdh_ships_list, true);
-
-//$counter = 0;
-//$table = array();
 
 foreach($vdh_ships as $id=>$vdh_ship){
     $vdh_ship_dir = $vdh_dir.$id;

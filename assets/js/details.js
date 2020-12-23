@@ -177,6 +177,132 @@ moment.locale('ru');
                 });
         }
 
+        function in_array(value, array) {
+            for(var i=0; i<array.length; i++){
+                if(value == array[i]) return true;
+            }
+            return false;
+        }
+
+        function renderIFF() {
+            var shipid = parseUrlQuery('ship');
+            var tourid = parseUrlQuery('tour');
+            let cruise_url = 'https://restapi.infoflot.com/cruises/' + tourid + '?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
+            let ship_url = 'https://restapi.infoflot.com/ships/' + shipid + '?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
+            let cabins_url = 'https://restapi.infoflot.com/cruises/' + tourid + '/cabins?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
+
+
+            $.getJSON(ship_url)
+                .done(function (data) {
+                    var dataSet = [];
+                    $('.shipname').html('<hr><h2>т/х "' + data['name'] + '"</h2>');
+                    $("input[name='ship']").val(data['name']);
+                    $('.shipimg').html('<img src="' + data['files']['photo']['path'] + '" width="350" />');
+                    $('.deckplan').html('<a href="' + data['files']['scheme']['path'] + '" data-lightbox="deckplan"><img src="' + data['files']['scheme']['path'] + '" width="350" /></a>');
+                    $('.description').html('<p><br><br>' + data['descriptionBig'] + '</p>');
+                    $.getJSON(cabins_url).done(function(cab){
+                        //console.log(cab.prices);
+                        var types = [];
+                        var count = 0;
+                        var typePrice = {};
+                        $.each(cab.prices, function(x, price){
+                            //console.log(price.type_name);
+                            typePrice[x] = price.prices.main_bottom.adult;
+                        });
+                        $.each(data['cabins'], function (i, v){
+                            if(types.indexOf(v.typeId) === -1) {
+                                types.push(v.typeId);
+                                dataSet[count] = {};
+                                dataSet[count]['img'] = v['photos'][0]['filename'];
+                                dataSet[count]['name'] = v['typeName'];
+                                dataSet[count]['desc'] = v['typeFriendlyName'];
+                                dataSet[count]['price'] = typePrice[v.typeId];
+                                count++;
+                            }
+                        });
+                        console.log(dataSet);
+
+                    var cabins = $('#cabins').DataTable({
+                        "dom": 'rt',
+                        "data": dataSet,
+                        "language": ru_RU,
+                        "columns": [
+                            {"data": "img", "class": "dt-cell-img"},
+                            {"data": "name", "class": "dt-cell-cat"},
+                            {"data": "desc", "class": "dt-cell-desc"},
+                            {"data": "price", "class": "dt-cell-price"}
+                        ],
+                        "columnDefs": [
+                            {
+                                "targets": [0, 1, 2, 3],
+                                "sortable": false
+                            },
+                            {
+                                "render": function (data, type, row) {
+                                    if (row.img === undefined) {
+                                        return '<img src="https://placehold.it/150x150" width="150" />';
+                                    }
+                                    return '<a href="' + row.img + '" data-lightbox="cabin"><img src="' + row.img + '" width="100%" /></a>';
+
+                                },
+                                "targets": [0]
+                            }
+                        ]
+
+                    });//end datatable
+                    });
+                });
+
+            $.getJSON(cruise_url)
+                .done(function (data) {
+                    //console.log(data);
+                    $('.cruise-meta').append('<li>' + data['route'] + '</li>').append('<li>Дата круиза: ' + moment(data['dateStart'], 'YYYY-MM-DDTHH:mm:ss+03:00').format('YYYY-MM-DD HH:mm') + ' - ' + moment(data['dateEnd'], 'YYYY-MM-DDTHH:mm:ss+03:00').format('YYYY-MM-DD HH:mm') + ' ( ' + data['days'] + ' дн.)' + ' </li>');
+                    $("input[name='tour']").val(data['route']);
+                    $("input[name='date']").val(data['dateStart'] );
+                    const dataSet = [];
+                    $.each(data['timetable'], function (i, v){
+                        dataSet[i] = {};
+                        dataSet[i]['city'] = v['place'];
+                        dataSet[i]['date_start'] = moment(v['dateArrival'], 'YYYY-MM-DDTHH:mm:ss+03:00').format('YYYY-MM-DD HH:mm');
+                        dataSet[i]['date_end'] = moment(v['dateDeparture'], 'YYYY-MM-DDTHH:mm:ss+03:00').format('YYYY-MM-DD HH:mm');
+                        dataSet[i]['description'] = v['description'];
+                    });
+                    if (data.length !== 0) {
+                        $('.program').prepend('<h2>Программа круиза</h2>');
+                        var program = $('#program').DataTable({
+                            "dom": 'rt',
+                            "searching": false,
+                            "ordering": false,
+                            "data": dataSet,
+                            // "ajax": {
+                            //     "url": route_url,
+                            //     "dataSrc": function (json) {
+                            //         var data = [];
+                            //         for (var key in json) {
+                            //             if (json.hasOwnProperty(key)) {
+                            //                 json[key].tourstart = moment(json[key].date_start + ' ' + json[key].time_start, 'DD.MM.YYYY HH:mm').format('YYYY-MM-DD HH:mm');
+                            //                 data.push(json[key]);
+                            //             }
+                            //         }
+                            //         data.sort(compare);
+                            //         return data;
+                            //     }
+                            // },
+                            "language": ru_RU,
+                            "columns": [
+                                {"data": "city", "class": "dt-cell-city", "title": "Остановка"},
+                                {"data": "date_start", "class": "dt-cell-cat", "title": "Дата прибытия"},
+                                //{"data": "time_start", "class": "dt-cell-desc", "title": "Время прибытия"},
+                                {"data": "date_end", "class": "dt-cell-price", "title": "Дата отхода"},
+                                //{"data": "time_end", "class": "dt-cell-places", "title": "Время отхода"},
+                                {"data": "description", "class": "dt-cell-places", "title": "Программа"}
+                            ]
+
+                        });//end datatable
+                    }
+                });
+        }
+
         function renderMTF() {
             var shipid = parseUrlQuery('ship');
             var tourid = parseUrlQuery('tour');
@@ -545,8 +671,8 @@ moment.locale('ru');
         function renderDetailsVDH() {
             var shipid = parseUrlQuery('ship');
             var tourid = parseUrlQuery('tour');
-            var ships_url = 'api/db/data/vdh/motorships.json';
-            var tour_url = 'api/db/data/vdh/' + shipid + '/' + tourid + '.json';
+            var ships_url = 'api/ajax/data/vdh/motorships.json';//'https://api.vodohod.com/json/v2/motorships.php?pauth=';
+            var tour_url = 'api/ajax/data/vdh/' + shipid + '/' + tourid + '.json';
 
 
             $.getJSON(ships_url)
@@ -586,6 +712,48 @@ moment.locale('ru');
 
                 });//end tours callback
         }
+        function renderDetailsVDHv2() {
+            var shipid = parseUrlQuery('ship');
+            var tourid = parseUrlQuery('tour');
+            var ships_url = 'https://api.vodohod.com/json/v2/motorships.php?pauth=v2-ba9fab12d2c4b8d005645d04492a7af7';
+            var tour_url = 'https://api.vodohod.com/json/v2/cruise-days.php?pauth=v2-ba9fab12d2c4b8d005645d04492a7af7&cruise=' + tourid;
+
+
+            $.getJSON(ships_url)
+                .done(function (data) {
+                    $('.shipname').html('<hr><h2>т/х "' + data[shipid]['name'] + '"</h2>');
+                    $("input[name='ship']").val(data[shipid]['name']);
+                    $('.shipimg').html('<img src="/assets/img/vdh/'+ data[shipid]['code'] + '.jpg" width="550" />');
+                    $('.deckplan').html('<a href="' + data[shipid]['decks'] + '" data-lightbox="deckplan"><img src="' + data[shipid]['decks'] + '" width="350" /></a>');
+                    $('.description').html( data[shipid]['description']);
+                    $.each(data.rooms, function (id, row) {
+                        var cabins_table = '<tr>' +
+                            '<td>' + row['roomTypeName'] + '</td>' +
+                            '<td>' + row['roomDescription'] + '</td>' +
+                            '<td></td>' +
+                            '<td></td>' +
+                            '</tr>';
+                        $('#cabins').append(cabins_table);
+                    });
+                });
+
+            $.getJSON(tour_url)
+                .done(function (tours) {
+                    $('.cruise-meta').append('<li>' + tours['name'] + '</li>').append('<li>Дата круиза: ' + moment(tours['dateStart']).format('DD.MM.YYYY') + ' - ' + moment(tours['dateStop']).format('DD.MM.YYYY') + ' ( ' + tours['days'] + ' дн.)' + ' </li>');
+                    $("input[name='tour']").val(tours['name']);
+                    $("input[name='date']").val(tours['dateStart']);
+                    var ex = '';
+                    $.each(tours.routeDays, function (id, row) {
+                        ex = '<tr><td width="100">' + row.portName + '</td>' +
+                            '<td width="120">' + row.timeStart.substr(0, 5) + '</td>' +
+                            '<td width="120">' + row.timeStop.substr(0, 5) + '</td>' +
+                            '<td>' + row.excursionHtml + '</td></tr>';
+                        $('#program').append(ex);
+                    });
+
+
+                });//end tours callback
+        }
 
 
 
@@ -599,7 +767,7 @@ moment.locale('ru');
                 renderDetailsVDH();
                 break;
             case 'inf':
-                renderDetails();
+                renderIFF();
                 break;
             default:
                 break;
