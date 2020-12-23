@@ -1,1 +1,61 @@
-Уже обновлено.
+Обновление 714c1b41f..42c04a799
+Fast-forward
+ api/db/api-import.php                              |   4 +-
+ .../images/favicons-bw/favicon-114-precomposed.png | Bin 0 -> 4603 bytes
+ .../images/favicons-bw/favicon-120-precomposed.png | Bin 0 -> 5003 bytes
+ .../images/favicons-bw/favicon-144-precomposed.png | Bin 0 -> 6108 bytes
+ .../images/favicons-bw/favicon-152-precomposed.png | Bin 0 -> 6675 bytes
+ .../images/favicons-bw/favicon-180-precomposed.png | Bin 0 -> 8340 bytes
+ assets/images/favicons-bw/favicon-192.png          | Bin 0 -> 9118 bytes
+ assets/images/favicons-bw/favicon-32.png           | Bin 0 -> 1051 bytes
+ assets/images/favicons-bw/favicon-36.png           | Bin 0 -> 1155 bytes
+ assets/images/favicons-bw/favicon-48.png           | Bin 0 -> 1573 bytes
+ assets/images/favicons-bw/favicon-57.png           | Bin 0 -> 2013 bytes
+ assets/images/favicons-bw/favicon-60.png           | Bin 0 -> 2132 bytes
+ .../images/favicons-bw/favicon-72-precomposed.png  | Bin 0 -> 2677 bytes
+ assets/images/favicons-bw/favicon-72.png           | Bin 0 -> 2677 bytes
+ assets/images/favicons-bw/favicon-76.png           | Bin 0 -> 2739 bytes
+ assets/images/favicons-bw/favicon-96.png           | Bin 0 -> 3748 bytes
+ assets/images/favicons-bw/favicon.ico              | Bin 0 -> 5558 bytes
+ assets/images/favicons/Icon                        |   0
+ assets/images/favicons/favicon-114-precomposed.png | Bin 4603 -> 5052 bytes
+ assets/images/favicons/favicon-120-precomposed.png | Bin 5003 -> 5526 bytes
+ assets/images/favicons/favicon-144-precomposed.png | Bin 6108 -> 6620 bytes
+ assets/images/favicons/favicon-152-precomposed.png | Bin 6675 -> 6965 bytes
+ assets/images/favicons/favicon-180-precomposed.png | Bin 8340 -> 8293 bytes
+ assets/images/favicons/favicon-192.png             | Bin 9118 -> 8822 bytes
+ assets/images/favicons/favicon-32.png              | Bin 1051 -> 1496 bytes
+ assets/images/favicons/favicon-36.png              | Bin 1155 -> 1701 bytes
+ assets/images/favicons/favicon-48.png              | Bin 1573 -> 2289 bytes
+ assets/images/favicons/favicon-57.png              | Bin 2013 -> 2675 bytes
+ assets/images/favicons/favicon-60.png              | Bin 2132 -> 2739 bytes
+ assets/images/favicons/favicon-72-precomposed.png  | Bin 2677 -> 3388 bytes
+ assets/images/favicons/favicon-72.png              | Bin 2677 -> 3388 bytes
+ assets/images/favicons/favicon-76.png              | Bin 2739 -> 3651 bytes
+ assets/images/favicons/favicon-96.png              | Bin 3748 -> 4527 bytes
+ assets/images/favicons/favicon.ico                 | Bin 5558 -> 5558 bytes
+ assets/images/favicons/index.html                  | 133 +++++++++++++++++++++
+ assets/images/favicons/manifest.json               |  41 +++++++
+ favicon-old.ico                                    | Bin 0 -> 5558 bytes
+ favicon.ico                                        | Bin 5558 -> 5558 bytes
+ 38 files changed, 176 insertions(+), 2 deletions(-)
+ create mode 100644 assets/images/favicons-bw/favicon-114-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-120-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-144-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-152-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-180-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-192.png
+ create mode 100644 assets/images/favicons-bw/favicon-32.png
+ create mode 100644 assets/images/favicons-bw/favicon-36.png
+ create mode 100644 assets/images/favicons-bw/favicon-48.png
+ create mode 100644 assets/images/favicons-bw/favicon-57.png
+ create mode 100644 assets/images/favicons-bw/favicon-60.png
+ create mode 100644 assets/images/favicons-bw/favicon-72-precomposed.png
+ create mode 100644 assets/images/favicons-bw/favicon-72.png
+ create mode 100644 assets/images/favicons-bw/favicon-76.png
+ create mode 100644 assets/images/favicons-bw/favicon-96.png
+ create mode 100644 assets/images/favicons-bw/favicon.ico
+ create mode 100644 assets/images/favicons/Icon
+ create mode 100644 assets/images/favicons/index.html
+ create mode 100644 assets/images/favicons/manifest.json
+ create mode 100644 favicon-old.ico
