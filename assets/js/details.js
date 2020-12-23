@@ -213,9 +213,11 @@ moment.locale('ru');
                             if(types.indexOf(v.typeId) === -1) {
                                 types.push(v.typeId);
                                 dataSet[count] = {};
-                                dataSet[count]['img'] = v['photos'][0]['filename'];
+                                var img = v['photos'] === null ? 'https://placehold.it/150x150': v['photos'][0]['filename'];
+                                dataSet[count]['img'] = img;
                                 dataSet[count]['name'] = v['typeName'];
-                                dataSet[count]['desc'] = v['typeFriendlyName'];
+                                dataSet[count]['desc'] = v['typeFriendlyName'] === null ? '' : v['typeFriendlyName'];
+                                dataSet[count]['desc'] = v['typeFriendlyName'] === null ? '' : v['typeFriendlyName'];
                                 dataSet[count]['price'] = typePrice[v.typeId];
                                 count++;
                             }
