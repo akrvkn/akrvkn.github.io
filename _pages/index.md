@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-script: spec.js?v=1.0.1
+script: spec.js?v=1.0.2
 ---
 
 {% include sections/promo.html %}
