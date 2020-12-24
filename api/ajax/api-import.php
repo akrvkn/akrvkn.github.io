@@ -79,7 +79,7 @@ foreach($mtf_ships_list->data as $key=>$mtf_ship){
 }
 
 file_put_contents('mtfimages.json', json_encode($mtf_images));
-
+file_put_contents('mtfships.json', json_encode($mtf_names));
 
 $vdh_ships_list = json_decode(file_get_contents($motorships, false, $context), true);
 $vdh_arr = [];
@@ -105,6 +105,11 @@ if($ships_list){
 
 if(count($filtered_ships)>0){
 	file_put_contents('ships.json', json_encode($filtered_ships));
+}
+
+$ships_img = @file_get_contents($shipsimages);
+if($ships_img){
+	file_put_contents('shipsimages.json', $ships_img);
 }
 
 
