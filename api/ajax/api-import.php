@@ -118,7 +118,10 @@ $ships_img = @file_get_contents($shipsimages);
 if($ships_img){
 	file_put_contents('shipsimages.json', $ships_img);
 }
-
+$schemes_list = @file_get_contents($schemes);
+if($schemes_list){
+	file_put_contents('schemes.json', $schemes_list);
+}
 
 $counter = 0;
 foreach($filtered_ships as $ship_id=>$ship_name){
@@ -139,10 +142,6 @@ foreach($filtered_ships as $ship_id=>$ship_name){
 }
 
 file_put_contents('ships.json', json_encode($filtered_ships));
-$ships_img = @file_get_contents($shipsimages);
-if($ships_img){
-	file_put_contents('shipsimages.json', $ships_img);
-}
 
 $counter = 0;
 $table = array();
