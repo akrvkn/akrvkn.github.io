@@ -152,6 +152,9 @@ $tours = json_decode(file_get_contents($iff_url), true);
 $pages = $tours['pagination']['pages']['total'];
 
 if($tours){
+	if($counter == 90){
+		sleep(60);
+	}
 	foreach($tours['data'] as $tour_id=>$tour){
 		$table[$counter]['company'] = 'iff';
 		$table[$counter]['shipid'] = $tour['ship']['id'];
@@ -168,9 +171,17 @@ if($tours){
 	}
 }
 
+$count = 0;
+
 for($i = 2; $i < $pages; $i++){
 	$iff_url_page = $iff_url.'&page='.$i;
 	$page_tours = json_decode(file_get_contents($iff_url_page), true);
+	$count++;
+	if($count == 90){
+		$count = 0;
+		sleep(60);
+	}
+
 	foreach($page_tours['data'] as $tour){
 		$table[$counter]['company'] = 'iff';
 		$table[$counter]['shipid'] = $tour['ship']['id'];
