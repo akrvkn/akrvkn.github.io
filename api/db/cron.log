@@ -59,3 +59,48 @@ Fast-forward
  create mode 100644 assets/images/favicons/index.html
  create mode 100644 assets/images/favicons/manifest.json
  create mode 100644 favicon-old.ico
+[master d4cab89c0] Updated db 2020-12-23 08:59
+ 114 files changed, 170 insertions(+), 114 deletions(-)
+ rewrite api/db/cron.log (100%)
+ rewrite api/db/cruises.json (69%)
+ rewrite api/db/data/103/tours.json (85%)
+ rewrite api/db/data/106/tours.json (82%)
+ rewrite api/db/data/214/tours.json (75%)
+ rewrite api/db/data/219/tours.json (87%)
+ delete mode 100644 api/db/data/462/355358.json
+ delete mode 100644 api/db/data/462/355359.json
+ delete mode 100644 api/db/data/462/355360.json
+ delete mode 100644 api/db/data/462/355361.json
+ rewrite api/db/data/462/tours.json (100%)
+ rewrite api/db/data/52/tours.json (70%)
+ rewrite api/db/data/99/tours.json (84%)
+ rewrite api/db/data/vdh/11/11906.json (75%)
+ rewrite api/db/data/vdh/15/11364.json (73%)
+ rewrite api/db/data/vdh/15/12134.json (85%)
+ rewrite api/db/data/vdh/15/12135.json (86%)
+ rewrite api/db/data/vdh/15/12542.json (83%)
+ rewrite api/db/data/vdh/15/cruises.json (62%)
+ rewrite api/db/data/vdh/16/11320.json (72%)
+ rewrite api/db/data/vdh/16/11670.json (63%)
+ rewrite api/db/data/vdh/16/11774.json (72%)
+ rewrite api/db/data/vdh/17/11303.json (63%)
+ rewrite api/db/data/vdh/17/11396.json (78%)
+ rewrite api/db/data/vdh/17/11397.json (74%)
+ rewrite api/db/data/vdh/29/11484.json (77%)
+ rewrite api/db/data/vdh/3/11153.json (78%)
+ rewrite api/db/data/vdh/3/11155.json (70%)
+ rewrite api/db/data/vdh/32/11169.json (66%)
+ rewrite api/db/data/vdh/32/11177.json (75%)
+ rewrite api/db/data/vdh/32/11181.json (67%)
+ rewrite api/db/data/vdh/37/11138.json (81%)
+ rewrite api/db/data/vdh/50/12035.json (64%)
+ rewrite api/db/data/vdh/50/12036.json (73%)
+ rewrite api/db/data/vdh/50/12125.json (66%)
+ rewrite api/db/data/vdh/6/11346.json (60%)
+ rewrite api/db/data/vdh/69/11381.json (68%)
+ rewrite api/db/data/vdh/69/11387.json (69%)
+ rewrite api/db/data/vdh/90/11189.json (74%)
+ rewrite api/db/data/vdh/90/12115.json (60%)
+ rewrite api/db/data/vdh/90/12123.json (71%)
+ rewrite api/db/data/vdh/90/12181.json (75%)
+ rewrite api/db/data/vdh/motorships.json (77%)
