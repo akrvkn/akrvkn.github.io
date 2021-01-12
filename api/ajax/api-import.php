@@ -198,7 +198,7 @@ for($i = 2; $i < $pages; $i++){
 }
 
 
-$filterMtf = '&filter[ship-id][in][]=5&filter[ship-id][in][]=14&filter[ship-id][in][]=19&filter[ship-id][in][]=36&filter[ship-id][in][]=72&filter[ship-id][in][]=91&filter[ship-id][in][]=92&filter[ship-id][in][]=139&filter[ship-id][in][]=150&filter[ship-id][in][]=198&filter[ship-id][in][]=200&filter[ship-id][in][]=206&filter[ship-id][in][]=207&filter[ship-id][in][]=247';
+/**$filterMtf = '&filter[ship-id][in][]=5&filter[ship-id][in][]=14&filter[ship-id][in][]=19&filter[ship-id][in][]=36&filter[ship-id][in][]=72&filter[ship-id][in][]=91&filter[ship-id][in][]=92&filter[ship-id][in][]=139&filter[ship-id][in][]=150&filter[ship-id][in][]=198&filter[ship-id][in][]=200&filter[ship-id][in][]=206&filter[ship-id][in][]=207&filter[ship-id][in][]=247';
 
 $mtf_cruises = json_decode(file_get_contents('https://api.mosturflot.ru/v3/rivercruises/tours?filter[start][gte]='.date("Y-m-d").'T00:00:00Z'.$filterMtf.'&per-page=1000'), true);
 
@@ -215,7 +215,7 @@ foreach($mtf_cruises['data'] as $key=>$val){
 	$table[$counter]['tourcabinsfree'] = '';
 
 	$counter++;
-}
+}*/
 
 /**$vdh_cruises = file_get_contents($vcruises, false, $context);
 file_put_contents('vodohod.json', $vdh_cruises);
