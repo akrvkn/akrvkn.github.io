@@ -1,1 +1,7 @@
-Уже обновлено.
+Обновление 559867476..39f6955dd
+Fast-forward
+ _includes/sidebar.html                    |  10 ++++------
+ _posts/2021-01-12-january.md              |  12 +++++++++---
+ assets/images/banners/ny-cruise-volna.jpg | Bin 0 -> 381447 bytes
+ 3 files changed, 13 insertions(+), 9 deletions(-)
+ create mode 100644 assets/images/banners/ny-cruise-volna.jpg
