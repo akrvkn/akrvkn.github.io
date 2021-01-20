@@ -192,6 +192,7 @@ moment.locale('ru');
             let cabins_url = 'https://restapi.infoflot.com/cruises/' + tourid + '/cabins?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
             //https://restapi.infoflot.com/cruises/360604/cabins?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
             //https://restapi.infoflot.com/ships/99?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
+            //https://restapi.infoflot.com/cruises/354895?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
 
             $.getJSON(ship_url)
                 .done(function (data) {
