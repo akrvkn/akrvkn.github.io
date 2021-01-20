@@ -1,4 +1,8 @@
 <?php
+
+$sdir = dirname(__FILE__);
+system ( 'cd '.$sdir.'; git pull;' );
+
 $key = '407c8c353a23a14d40479eb4e4290a8a6d32b06b';
 $now = date('Y-m-d');
 $cruises_base = 'https://restapi.infoflot.com/cruises?key='.$key.'&dateStartFrom='.$now.'&type=river&startCountry=1&limit=100';
@@ -73,5 +77,11 @@ usort($table, function($a, $b){
 });
 
 file_put_contents('cruises.json', json_encode($table));
+
+$sdate = date('Y-m-d H:i');
+
+system ( 'cd '.$sdir.'; git add -A;' );
+system ( 'cd '.$sdir.'; git commit -a -m "Updated db '.$sdate.'";' );
+system ( 'cd '.$sdir.'; git push origin master ;' );
 
 ?>

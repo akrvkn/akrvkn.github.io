@@ -1,4 +1,8 @@
 <?php
+
+$sdir = dirname(__FILE__);
+system ( 'cd '.$sdir.'; git pull;' );
+
 //Vodohod.com API v2
 //https://api.vodohod.com/json/v2/cruises.php?pauth=v2-ba9fab12d2c4b8d005645d04492a7af7
 $VDH_BASE = 'https://api.vodohod.com/json/v2/';
@@ -63,6 +67,10 @@ file_put_contents($vdh_ship_dir.'/cruises.json', json_encode($vdh_ship_cruises))
 
 //End Vodohod.com API v2
 
+$sdate = date('Y-m-d H:i');
 
+system ( 'cd '.$sdir.'; git add -A;' );
+system ( 'cd '.$sdir.'; git commit -a -m "Updated db '.$sdate.'";' );
+system ( 'cd '.$sdir.'; git push origin master ;' );
 
 ?>
