@@ -191,7 +191,7 @@ moment.locale('ru');
             let ship_url = 'https://restapi.infoflot.com/ships/' + shipid + '?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
             let cabins_url = 'https://restapi.infoflot.com/cruises/' + tourid + '/cabins?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b';
             //https://restapi.infoflot.com/cruises/360604/cabins?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
-            //https://restapi.infoflot.com/ships/44'?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
+            //https://restapi.infoflot.com/ships/99?key=407c8c353a23a14d40479eb4e4290a8a6d32b06b
 
             $.getJSON(ship_url)
                 .done(function (data) {
@@ -210,11 +210,14 @@ moment.locale('ru');
                             //console.log(price.type_name);
                             typePrice[x] = price.prices.main_bottom.adult;
                         });
+                        var img = 'https://placehold.it/150x150';
                         $.each(data['cabins'], function (i, v){
                             if(types.indexOf(v.typeId) === -1) {
                                 types.push(v.typeId);
                                 dataSet[count] = {};
-                                var img = v['photos'].length > 0 ? v['photos'][0]['filename'] : 'https://placehold.it/150x150';
+                                if( v['photos'] ) {
+                                    img = v['photos'].length > 0 ? v['photos'][0]['filename'] : 'https://placehold.it/150x150';
+                                }
                                 dataSet[count]['img'] = img;
                                 dataSet[count]['name'] = v['typeName'];
                                 dataSet[count]['desc'] = v['typeFriendlyName'] === null ? '' : v['typeFriendlyName'];
@@ -223,7 +226,7 @@ moment.locale('ru');
                                 count++;
                             }
                         });
-                        console.log(dataSet);
+                        //console.log(dataSet);
 
                     var cabins = $('#cabins').DataTable({
                         "dom": 'rt',
